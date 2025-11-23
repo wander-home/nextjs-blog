@@ -1,12 +1,12 @@
 import Layout from '../../components/layout';
-import { getAllPostIds, getPostData } from '../../lib/puzzles';
+import { getAllPuzzleIds, getPuzzleData } from '../../lib/puzzles';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import Image from 'next/image';
  
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id);
+  const postData = await getPuzzleData(params.id);
   return {
     props: {
       postData,
@@ -15,7 +15,7 @@ export async function getStaticProps({ params }) {
 }
  
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
+  const paths = getAllPuzzleIds();
   return {
     paths,
     fallback: false,
