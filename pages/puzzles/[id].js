@@ -34,15 +34,14 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           <div>
-          <Image
+          {postData.imageFile ? <Image
             src={`/images/${postData.imageFile}`}
             width={500}
             height={500}
             alt="Puzzle image"
-            />
+            /> : <p>No image.</p>}
           </div>
           <div>{postData.pzprxs ? <a href={`https://pzprxs.vercel.app/${postData.pzprxs}`} target="_blank">Solve online (pzprxs)</a> : null}</div>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
       </Layout>
     );
