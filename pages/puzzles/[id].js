@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
  
 export async function getStaticProps({ params }) {
   const postData = await getPuzzleData(params.id);
@@ -42,6 +43,9 @@ export default function Post({ postData }) {
             /> : <p>No image.</p>}
           </div>
           <div>{postData.pzprxs ? <a href={`https://pzprxs.vercel.app/${postData.pzprxs}`} target="_blank">Solve online (pzprxs)</a> : null}</div>
+          {postData.tags && postData.tags.map((tag) => {
+            return <Link href={`/tags/${tag}`}>{`${tag}  `}</Link>
+          })}
         </article>
       </Layout>
     );

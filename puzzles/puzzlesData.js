@@ -4,16 +4,18 @@ export const puzzlesData = [
         date: "2014-03-09",
         pzprxs: "p?fillomino/10/10/5g13h53g1p2h1h4h35g4g44g1g2i1h3l3h2i5g5g54g1g62h4h6h1p5g23h32g6",
         imageFile: "blog1.png",
-        tags: ["size:10x10"],
+        tags: ["10x10", "fillomino"],
     },
     {
         title: "Nurikabe",
         date: "2014-03-09",
         pzprxs: "p?nurikabe/10/10/l1h4s4n4l2kbn6k2l2n5s2h1l",
+        tags: ["10x10", "nurikabe"],
     },
     {
         title: "Slitherlink",
         date: "2014-03-09",
         pzprxs: "p?slither/10/10/q313020271cj221c2a0c1c1bh1b2d2d3b222bj362123111do",
+        tags: ["10x10", "slitherlink"],
     }
 ]

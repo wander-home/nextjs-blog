@@ -1,1 +1,1 @@
-export const tagsData = ["size:10x10"];
+export const tagsData = ["10x10", "fillomino", "slitherlink", "nurikabe"];
