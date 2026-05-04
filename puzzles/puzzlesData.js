@@ -10,12 +10,14 @@ export const puzzlesData = [
         title: "Nurikabe",
         date: "2014-03-09",
         pzprxs: "p?nurikabe/10/10/l1h4s4n4l2kbn6k2l2n5s2h1l",
+        imageFile: "blog2.png",
         tags: ["10x10", "nurikabe"],
     },
     {
         title: "Slitherlink",
         date: "2014-03-09",
         pzprxs: "p?slither/10/10/q313020271cj221c2a0c1c1bh1b2d2d3b222bj362123111do",
+        imageFile: "blog3.png",
         tags: ["10x10", "slitherlink"],
     }
 ]

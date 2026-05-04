@@ -44,7 +44,22 @@
   }
    
   .listItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
     margin: 0 0 1.25rem;
+  }
+
+  .listItemImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .listItemText {
+    display: flex;
+    flex-direction: column;
   }
    
   .lightText {
