@@ -38,7 +38,7 @@ export default function Post({ postData }) {
             src={`/images/${postData.imageFile}`}
             width={500}
             height={500}
-            alt="Puzzle image"
+            alt="Image of puzzle"
             /> : <p>No image.</p>}
           </div>
           <div>{postData.pzprxs ? <a href={`https://pzprxs.vercel.app/${postData.pzprxs}`} target="_blank">Solve online (pzprxs)</a> : null}</div>

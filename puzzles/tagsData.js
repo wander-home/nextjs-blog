@@ -1,0 +1,1 @@
+export const tagsData = ["size:10x10"];
