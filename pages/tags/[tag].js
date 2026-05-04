@@ -5,7 +5,6 @@ import { SearchItem } from '../../components/SearchItem';
  
 export async function getStaticProps({ params }) {
   const postData = await getPuzzlesWithTag(params.tag);
-  console.log(postData);
   return {
     props: {
       postData,
