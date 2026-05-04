@@ -2,8 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPuzzlesData } from '../lib/puzzles';
-import Link from 'next/link';
-import Date from '../components/date';
+import { SearchItem } from '../components/SearchItem';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPuzzlesData();
@@ -30,15 +29,7 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/puzzles/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
+          {allPostsData.map((postData) => {return SearchItem(postData)})}
         </ul>
       </section>
     </Layout>

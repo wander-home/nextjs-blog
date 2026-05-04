@@ -1,8 +1,7 @@
 import Layout from '../../components/layout';
 import { getAllTagIds, getPuzzlesWithTag } from '../../lib/puzzles';
-import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
-import Link from 'next/link';
+import { SearchItem } from '../../components/SearchItem'; 
  
 export async function getStaticProps({ params }) {
   const postData = await getPuzzlesWithTag(params.tag);
@@ -28,15 +27,7 @@ export default function Tag({ postData }) {
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>{`Puzzles with Tag`}</h2>
           <ul className={utilStyles.list}>
-            {postData.map(({ id, date, title }) => (
-              <li className={utilStyles.listItem} key={id}>
-              <Link href={`/puzzles/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-            ))}
+            {postData.map((postData) => {return SearchItem(postData)})}
           </ul>
         </section>
       </Layout>
