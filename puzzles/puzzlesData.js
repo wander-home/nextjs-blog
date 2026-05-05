@@ -5,6 +5,7 @@ export const puzzlesData = [
         pzprxs: "p?fillomino/10/10/5g13h53g1p2h1h4h35g4g44g1g2i1h3l3h2i5g5g54g1g62h4h6h1p5g23h32g6",
         imageFile: "blog1.png",
         tags: ["10x10", "fillomino", "blog"],
+        description: "The first puzzle posted to my original blog, where it all started! (Technically, I wrote a few small puzzles before this one, which I gave to friends to try.) Amazingly, the original version of this puzzle was nonunique! I posted a fixed version on May 2."
     },
     {
         title: "Nurikabe",
@@ -38,21 +39,33 @@ export const puzzlesData = [
         title: "Akari",
         date: "2014-03-15",
         pzprxs: "p?akari/10/10/qch6ag6.h.m.h.i.ibjcgag.hck.h6.i6.jco",
+        imageFile: "blog6.png",
         tags: ["10x10", "akari", "blog"],
     },
     {
         title: "Akari",
         date: "2014-03-15",
         pzprxs: "p?akari/10/10/iaag.nbg.hbg.n.zblagcagal.ibbg",
+        imageFile: "blog7.png",
         tags: ["10x10", "akari", "blog"],
     },
     {
         title: "Slalom",
         date: "2014-03-15",
         pzprxs: "p?slalom/d/10/10/6242813141513d31413141a2a1414191g1e1a14j06p/41",
+        imageFile: "blog8.png",
         tags: ["10x10", "slalom", "blog"],
     },
     // add puzzles before this one
+    {
+        title: "Fillomino (Snake)",
+        date: "2014-04-15",
+        penpa: "1VXfb9s2EH73X0EQGNACWmFZtuPoLUubvXTdj2QICsEIGIux2VBkRkp2qyD923t3lGtR9oC9bMAg63T6eL944nf2fzXCySQd4282TuAJ1ww0vCeLOd2I43Wjai1zdqW0tpUylr26NuJRvk4umnpjXc5uhX6ULkneOrFjghlrflSmls7LVa3Mmj2JesPqjbPNGp+SrSQtM/vAvK3wXWvPhClZqbaqlGTkZCWUQf+wDCEtgGtlDXlaB9nX1gitv7CVNQayyTIYv2E3EIHyVuILVFSzrfKq7kLtNmq1YdACJspPAqthEDusYWpyfHJyq2zjIXrjZfnD5JLJrTRQothnfdUYLX3P51Pja1bZLdRhmxqrrDciZH39hl1abd2+RFah7T06us4yBIHad9FGccELaJNXrfy+H7+h+g2T5VpCbN0MI2sLvYN9iS4YNqnuWooxlSnVSmDPTFPdS4e5QveSX6+ukgehvRwV3SlYjgo+4QndKV9+ba+/Fpwn6XL03P6RP7d3ebF8Sdo/D+rioF7nzzwb83ya8OycHulsHp7zGTzB5AOagF5AdDiLmAOMzwbAdGgxHVpgvIJnPYAspgfgLBu4nEEptLk9sFgMXBZQdGSRjsmnZ5KOKU8vcZqSV99mMjlCKFWvmBT7FCNTsulnn5FNhBzZzMnmez3Q4jR/BvmR5BXJCckb+EhJm5F8S3JMckbyPdm8I3lL8pLklOScbM7wM49GRRYGSXzN/n8YHHY419xbfecb9wATgudEh4SwQJcI0tY+aWViO7U2wPeTSwgicXleuyYyv7euxOAHfAezJnIO4zuCVsqtdAzVTkXvwjm7i5AKpk0E3IsaRr3fqKc4EgzIuIBaxNsXj2KQDf4o9uW8jPhnTneRQXczHBnneXuRtD+HM7sfKkn7O8yMX/L2GkcGjpcpHUCiwwTUdwf1ltZRu+zoMgb9Q6eD+hHU0JW79wH5LS/am4Rjnp/IG1WO07pjHL2vbHUPWyl4rxlhxTelfWz27ERGXQzKxSxdudmhXFRDuaidKBd38S+Xe758CZ9h/A/ndRjJ/8HU+NwRzbqTXAP4BN0APUmrDg/MivEjFmHCYyIBeoJLgA7pBNAxowA8IhVgf8MrjDqkFlY1ZBemOiIYpupzrFiOvgE=&a=RZRRjsQgDEPvst/zURIo9Cyruf819nkxqTRSnixqG6TM7+/3o99PtPsTeX3azweecDMvOMwPnJuD8zFf7v4WLWK93O2DFvG83O2JFt2e5FcuM/owx5sr7rc5YXfIzplzHu7uQK/qIB7dLB97ioc90aKfM/CwP1qM4zneDuLhe9El7pPFHW/fkcwY7ia+7YNWueLbPmTGtA+ZMY8Pb3X7ncXT/dEqlxnTWeTHtD+Z5S9e9kSLZZ+Jz8kVL78DWnUQL/uTH/OcgZffCq06MGM5ly7xuD/58bgb+ZXFjMfvQ048/nbx7fGH8zo+vNU65xe6e5KZl+9FZjy+F5nx2IeZ7ei8ycliZtvfKifb7pZXK/9/bvuO0k7WP7NLmxP9fNvRd8+85L/7a2b4DF2y2V8c9kdLdmwznt479UrvmrpUrti7Ji2918leVwexd01aescz5O8+5FeuOO2JVh3E3n1p6V1Tr+rATO+auqT3S/npHVd+eqcy1cffioe7oeWwD5npXVZm+v9EM71TyqwsZmUxd9b+89Pv+wc=",
+        imageFile: "blog21.png",
+        description: "My first variant puzzle! I like the interaction of small numbers and implied polyominoes in Fillomino, which works very naturally with the Snake variant. The clues form smiley faces :)",
+        variant: "Shade some cells to form a non-intersecting path (called a `snake`) which does not touch itself, not even diagonally. Given shaded cells must be part of the snake. The remaining cells must be divided into regions satisfying the usual Fillomino rules. The snake may touch regions of the same size as itself.",
+        tags: ["10x10", "fillomino", "blog", "variant"],
+    },
     {
         title: "Fillomino",
         date: "2014-05-08",

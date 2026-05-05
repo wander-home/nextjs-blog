@@ -3,6 +3,7 @@ import { getAllPuzzleIds, getPuzzleData } from '../../lib/puzzles';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import pageStyles from '../../styles/pageStyles.module.css'
 import Image from 'next/image';
 import { Tag } from '../../components/Tag';
 import Link from 'next/link';
@@ -28,7 +29,13 @@ export default function Puzzle({ postData }) {
   let puzzleLink = undefined;
   if (postData.pzprxs) {
     puzzleLink = `https://pzprxs.vercel.app/${postData.pzprxs}`
-  };
+  } else if (postData.penpa) {
+    puzzleLink = `https://swaroopg92.github.io/penpa-edit/#m=solve&p=${postData.penpa}`
+  }
+
+  const variantBox = postData.variant ? <div className={pageStyles.variantBox}>
+    <p><b>Variant Rules: </b>{`${postData.variant}`}</p>
+  </div> : null;
 
     return (
       <Layout>
@@ -40,7 +47,9 @@ export default function Puzzle({ postData }) {
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
           </div>
-          <Link href={puzzleLink}>
+          {postData.description ? <p>{postData.description}</p> : <br/>}
+          {variantBox}
+          <a href={puzzleLink} rel="noopener noreferrer" target="_blank">
             <div className={utilStyles.imageWrapper}>
               {postData.imageFile ? <Image
                 src={`/images/${postData.imageFile}`}
@@ -49,7 +58,7 @@ export default function Puzzle({ postData }) {
                 alt="Image of puzzle"
               /> : <p>No image.</p>}
             </div>
-          </Link>
+          </a>
           <div className={utilStyles.listItemTags}>
                 {postData.tags.map(tag => {return Tag(tag)})}
             </div>

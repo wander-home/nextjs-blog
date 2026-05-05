@@ -1,0 +1,9 @@
+.variantBox {
+    width: 500px;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-style: solid;
+    border-color: #cc79a7;
+    border-radius: 0.5rem;
+    background-color: rgba(204, 121, 167, 0.2);
+}
