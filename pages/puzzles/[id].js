@@ -25,6 +25,11 @@ export async function getStaticPaths() {
 }
  
 export default function Puzzle({ postData }) {
+  let puzzleLink = undefined;
+  if (postData.pzprxs) {
+    puzzleLink = `https://pzprxs.vercel.app/${postData.pzprxs}`
+  };
+
     return (
       <Layout>
         <Head>
@@ -35,15 +40,16 @@ export default function Puzzle({ postData }) {
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
           </div>
-          <div>
-          {postData.imageFile ? <Image
-            src={`/images/${postData.imageFile}`}
-            width={500}
-            height={500}
-            alt="Image of puzzle"
-            /> : <p>No image.</p>}
-          </div>
-          <div>{postData.pzprxs ? <a href={`https://pzprxs.vercel.app/${postData.pzprxs}`} target="_blank">Solve online (pzprxs)</a> : null}</div>
+          <Link href={puzzleLink}>
+            <div className={utilStyles.imageWrapper}>
+              {postData.imageFile ? <Image
+                src={`/images/${postData.imageFile}`}
+                width={500}
+                height={500}
+                alt="Image of puzzle"
+              /> : <p>No image.</p>}
+            </div>
+          </Link>
           <div className={utilStyles.listItemTags}>
                 {postData.tags.map(tag => {return Tag(tag)})}
             </div>
