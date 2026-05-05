@@ -10,3 +10,35 @@
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
 }
+
+.tag-blue {
+    font-size: medium;
+    background-color: #0072b2;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.tag-green {
+    font-size: medium;
+    background-color: #009e73;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.tag-red {
+    font-size: medium;
+    background-color: #d55e00;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.tag-pink {
+    font-size: medium;
+    background-color: #cc79a7;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}

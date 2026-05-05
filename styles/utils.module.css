@@ -61,6 +61,13 @@
     display: flex;
     flex-direction: column;
   }
+
+  .listItemTags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
    
   .lightText {
     color: #666;
