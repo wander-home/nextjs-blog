@@ -52,4 +52,12 @@ export const puzzlesData = [
         pzprxs: "p?slalom/d/10/10/6242813141513d31413141a2a1414191g1e1a14j06p/41",
         tags: ["10x10", "slalom", "blog"],
     },
+    // add puzzles before this one
+    {
+        title: "Fillomino",
+        date: "2014-05-08",
+        pzprxs: "p?fillomino/18/10/k21j14k41i16g61g23i2654l13l14y21g35g16i44g24h52g33i64g53g63y15l56l6365i51g16g62i13k62j64k",
+        imageFile: "blog29.png",
+        tags: ["10x18", "fillomino", "blog"],
+    },
 ]
