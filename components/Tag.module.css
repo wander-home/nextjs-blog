@@ -1,0 +1,12 @@
+.tagWrapper {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tag {
+    font-size: medium;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}

@@ -16,8 +16,8 @@
 .listItemImage {
     position: relative;
     aspect-ratio: initial;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .listItemText {
@@ -27,9 +27,12 @@
 
 .listItemTitle {
     text-decoration: none;
+    font-size: large;
     color: inherit;
 }
 
-.lightText {
-    color: #666;
+.listItemTags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
