@@ -3,14 +3,19 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --cache \"{components,lib,pages,public,puzzles,styles}/**/*.{js,jsx,css,json}\""
   },
   "dependencies": {
+    "@eslint/js": "^10.0.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
     "gray-matter": "^4.0.3",
     "next": "15.5.8",
-    "react": "latest",
+    "react": "^19.2.0",
     "react-dom": "latest",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"

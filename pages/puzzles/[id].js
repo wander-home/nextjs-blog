@@ -6,7 +6,6 @@ import utilStyles from '../../styles/utils.module.css';
 import pageStyles from '../../styles/pageStyles.module.css'
 import Image from 'next/image';
 import { Tag } from '../../components/Tag';
-import Link from 'next/link';
  
 export async function getStaticProps({ params }) {
   const postData = await getPuzzleData(params.id);
