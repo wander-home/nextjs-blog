@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "eslint --cache \"{components,lib,pages,public,puzzles,styles}/**/*.{js,jsx,css,json}\""
+    "lint": "eslint --cache \"{components,lib,pages,public,puzzles,styles}/**/*.{js,jsx,css,json}\"",
+    "pretty-all": "prettier \"{components,lib,pages,public,puzzles,styles}/**/*.{js,jsx,css,json}\" --write"
   },
   "dependencies": {
     "clsx": "^2.1.1",

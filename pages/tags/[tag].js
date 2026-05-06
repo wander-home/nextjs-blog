@@ -1,8 +1,8 @@
-import Layout from '../../components/layout';
-import { getAllTagIds, getPuzzlesWithTag } from '../../lib/puzzles';
-import utilStyles from '../../styles/utils.module.css';
-import { SearchItem } from '../../components/SearchItem'; 
- 
+import Layout from "../../components/layout";
+import { getAllTagIds, getPuzzlesWithTag } from "../../lib/puzzles";
+import utilStyles from "../../styles/utils.module.css";
+import { SearchItem } from "../../components/SearchItem";
+
 export async function getStaticProps({ params }) {
   const postData = await getPuzzlesWithTag(params.tag);
   return {
@@ -11,7 +11,7 @@ export async function getStaticProps({ params }) {
     },
   };
 }
- 
+
 export async function getStaticPaths() {
   const paths = getAllTagIds();
   return {
@@ -19,16 +19,18 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
- 
+
 export default function Tag({ postData }) {
-    return (
-        <Layout home>
-        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <h2 className={utilStyles.headingLg}>{`Puzzles with Tag`}</h2>
-          <ul className={utilStyles.list}>
-            {postData.map((postData) => {return SearchItem(postData)})}
-          </ul>
-        </section>
-      </Layout>
-    );
-  }
+  return (
+    <Layout home>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>{`Puzzles with Tag`}</h2>
+        <ul className={utilStyles.list}>
+          {postData.map((postData) => {
+            return SearchItem(postData);
+          })}
+        </ul>
+      </section>
+    </Layout>
+  );
+}
