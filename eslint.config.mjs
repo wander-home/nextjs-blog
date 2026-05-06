@@ -3,6 +3,7 @@ import globals from "globals";
 import pluginReact from "eslint-plugin-react";
 import { defineConfig } from "eslint/config";
 import prettierConfig from 'eslint-plugin-prettier/recommended'; 
+import nextPlugin from '@next/eslint-plugin-next'
 import { globalIgnores } from 'eslint/config';
 
 export default defineConfig([
@@ -14,7 +15,6 @@ export default defineConfig([
     'prettier/prettier': [
       'error', 
       { 
-        singleQuote: true,
         printWidth: 100,
         tabWidth: 2,
         semi: true,
