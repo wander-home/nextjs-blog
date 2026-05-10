@@ -15,12 +15,12 @@ export default defineConfig([
     'prettier/prettier': [
       'error', 
       { 
-        printWidth: 100,
+        //printWidth: 100,
         tabWidth: 2,
         semi: true,
         trailingComma: 'es5',
         bracketSpacing: true,
-        endOfLine: 'lf'
+        endOfLine: 'auto'
       }],
   }}
 ]);
