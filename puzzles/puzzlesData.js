@@ -341,7 +341,9 @@ export const puzzlesData = [
     date: "2014-08-23",
     pzprxs: "p?starbattle/10/10/2/00040o3gf0v5uhu1o1vvvuvsvovge0dgbo7s",
     imageFile: "blog46.png",
-    tags: ["10x10", "starbattle", "blog"],
+    tags: ["10x10", "starbattle", "blog", "favorites"],
+    description:
+      "A puzzle with a strong aesthetic, that also has a clean logical solve! The region containing the 2x2 square has a step I really like.",
   },
   {
     title: "Slitherlink",
@@ -376,7 +378,7 @@ export const puzzlesData = [
     date: "2015-03-26",
     pzprxs: "p?nurikabe/10/10/jcl1q5q5l2t1lbq2q5l5j",
     imageFile: "blog51.png",
-    tags: ["10x10", "nurikabe", "blog"],
+    tags: ["10x10", "nurikabe", "blog", "favorites"],
   },
   {
     title: "Fillomino",
@@ -394,19 +396,22 @@ export const puzzlesData = [
     tags: ["10x10", "tapa", "blog"],
   },
   {
-    title: "Fillomino",
+    title: "Fillomino (Star [2 Stars])",
     date: "2015-04-02",
     penpa:
       "1VRNb+M2EL37VxAEiraAYEh25Di6pdlNL9t0200RLAQjoCXGJkKRKUnlQ0H2t+/MSF5ZsvfQHgoUtsbjR87M42ge/d+1cDJKYvymaQS/8FnEKT2z5YKeuPtcq6Blxi6V1rZSxrKfPgXhfo7O67C1LmM3Qt9LF0UftSgk87DmmTLBMm8ryQqptWe+LrYsbEVgUoDn7BMTpmSF1XVl4McEoYxn8lkUQb+w8ATRmGjKsJZnlXhhxgYWLCayRkK4DVvpfphd0IJ8lIaVSmysEVq/TNk79ahKCTUlc7KC7MpsOjJEzsmNslDS3jHr4CBdIHIxsggSyOHmKbsGLnubMaEXcDCvGvmNl99CQ4ETk+VGTtmFrncJWFX7wNZSW6gPdUWXbHdopIU5lSlVIbCuqau1dFirY9C2oBDmR0zEHrDPJTSBbRSeut3vp9Hvl5fRndBeTvLu3a0mOZ/xiJ6Er77wwlZrxb/kHHn6eg04X01emz+z1+Y2y1dvUfNX7y5791P2CvYqe+UnJzzL+SmHicGcEU/nCCz3gCUCSdwji9NRzOlsBCyTMbCgJD1wlo6AJI5HMUl8NkaSMdtkRnShIz3S8t1D5mO+ycmYcJIS429R0J2EevSZ7CXZGdlraGHUzMm+IxuTTcl+oD3vyd6QvSB7QnZBe07xJUwm+bxV6vCT/v8wmEuYOu6tvvW1u4N55hlNbkRYO9EDSFv7oJUZ7lMbYx0o68gSgjjjPAuuHmxfW1di8h5/AuEPgtv7cQAVyhV6CAWnBv+Fg2ttgFQibAfAWgS4S/1WPQwzSROGBEDxw9z3YlQNbuIdnbcJf+b05HPo7hwFfZY151HzazvpO/1HzR+g6N+y5goFnXOYXRpAGuMZuO9794bW0bvoxjwG/6rzwf0MbtuV2w8t8jHLm2u8UKLmF4pGl1f2EYhSGP1vryAA9prRrvi6tPf1TlWoqHOi24Uc4TzvOaPbckbvCGc8CnKm3v4bvvtX5ojs2eqtfQnxP7pL/4M747mTmXVHlQbwEbEBelRUHd7qaogfaAgLHsoI0CNKAnQsJoAO9QTggaQA+46qMOtYWMhqrC0sdSAvLLWvsHw1+Qo=&a=TZTRjcQgEEN7ue98hJkQSC2r67+NfQ5m7qRIfrJgbCLB5/N76PuJFkfEfbSfA76PyHNxnPBl7n9rYsDzj69mnnCYn39z4CsX48XlmUlubh++PB8vrmG+WNPNmuOZaOWilYtWFlpZaFyeg1aWuD9mzn7v+TqXzyi+d5bOuNfDt3M7Wd1ZaHRnodGdJb69Fy+6zygezsWL7lzxcC5ejJ3Ff9g9xcPnpWP1udXZc9CY29d672V2zURjuifzYvgs4umeeDF8LvH0fLwYey88fUa8GHsv/Dh3krv7oDHdX/x4Dl5MdxA/noMX0x3EjzvgVX/x4w50r55wnv6feNUTrW5oPF5Dl8pFKwut+Wiea690z3+5rf7ysq3OeQZr1nlf5r4tTvy9Hm4rV16eey9ZzVloNmeJw3vxkru6WPOdJfb9lVfdxNzhxWTtnmLfcXWsPmLfa3nZ9ho4d5+Jv/5PhuY7C61uaPURc7cXM3/3Efu+y6s+aPKmFPvuy6tuYr8D8qqb2G+CvPSbkLw/6bfoZb8PmTqXc9HszqJvdeP9qQ5i33151UHsd0BedUCrA5npd+/l946vR1rf7xc=",
     imageFile: "blog54.png",
     tags: ["10x10", "fillomino", "blog", "variant"],
+    variant: "Place stars into some cells such that each row and column contains exactly two stars. Stars may not touch one another, not even diagonally. Stars can't be placed on given numbers. Divide the rest of the cells into regions following classic Fillomino rules.",
+    description: "This one is a bit silly, but I like how clean the construction is!"
   },
   {
     title: "Mochikoro",
     date: "2015-04-28",
     pzprxs: "p?mochikoro/10/10/i9y2s3g8z7g2s1y6i",
     imageFile: "blog55.png",
-    tags: ["10x10", "mochikoro", "blog"],
+    tags: ["10x10", "mochikoro", "blog", "favorites"],
+    description: "I think the border of this puzzle is very unique for Mochikoro, and think it works well! It sets up a lot of shaded cells to constrain the center."
   },
   {
     title: "Masyu",
@@ -420,7 +425,7 @@ export const puzzlesData = [
     date: "2015-05-29",
     pzprxs: "p?yajilin/b/10/10/p30n112311zf211211n40p",
     imageFile: "blog57.png",
-    tags: ["10x10", "yajilin", "blog"],
+    tags: ["10x10", "yajilin", "blog", "favorites"],
   },
   {
     title: "Fillomino",
@@ -428,14 +433,16 @@ export const puzzlesData = [
     pzprxs:
       "p?fillomino/10/10/q41g41g42h32g32g13r32g31g42h14g42g31r14g42g13h23g13g42q",
     imageFile: "blog58.png",
-    tags: ["10x10", "fillomino", "blog"],
+    tags: ["10x10", "fillomino", "blog", "favorites"],
+    description: "1234 in each box!"
   },
   {
     title: "Akari",
     date: "2015-10-13",
     pzprxs: "p?akari/10/10/.hba.rbchal.j.pahblbhbcpacb./",
     imageFile: "blog59.png",
-    tags: ["10x10", "akari", "blog"],
+    tags: ["10x10", "akari", "blog", "favorites"],
+    description: "At this point, most of the hard Akari I had solved used the same few kinds of deductions. The goal of this puzzle was to use hard deductions I hadn't seen before; I think it's the hardest puzzle on my original blog."
   },
   {
     title: "Slitherlink (Crosslink)",
@@ -443,8 +450,8 @@ export const puzzlesData = [
     penpa:
       "1ZXrb9s2EMC/+684EBjQAkJhPfyIvmVesy9d9miGoBCMgJZpW4skeiQ1pwqSv73Hk1qJtPdhGDBgkHU+/XjkHR931H82XIkgnNrffBrgPz5z1OwbLef0Wm6fu8KUIoWPZWEOQpVF/QhvVkpqXdT7t8AfOdCXbQiuG3OQKoV7Xj4KFQQrWdciN6BlJeDIC6VB7kAqtNrLmpflZ+DbP3guagNbaTQYCTupKuBQSnl8B3cnCUehjqLeFnlTcgXoR4AW+wr7aKj4ZyhqI5S2bgTPDyBtmN9FK9g0BmppwDSqBo7/B1GowbqQNUbSmZ8KLUD+hdPj6HRVNkKDEkcltI0MLaBuqo1A6x2I7R5bt4qfatCNUrLB2Oo9WeXYE940x24ejXr7Lvj55ibY8VKLSdav6HqSsYgF/bt+ZbmsNgV7zZgd+gkpW0+e29/S5/YhzdYvQfv7oC4H9WP6jPI2fWZxyNKMxQx3kYVsHbA49sHMgnAEFj64siAZQJJ4FsncGzRZemA29UHkDbogMLJYkJfpCPiRLsjt2IJCx9X7BiiOkcWS4hgDWqBRlzAkvw4hx6NOYUiOHEKenF60bGObiJyPJhBG5N2x8fcnTM4JxeMQf8/CxN+0cEa+xjYzWj+H0CzGZE4xj+c19zcqnNOKffOFRy+kA/iJ5A3JiOQdns+gjUn+QHJKckbyA9m8J3lPckUyITknm4U94ZNJFnelyX1m/z+GKY8pzbQsH7Bk7LDgsZSKQkCsKy4OsuXPljoHFvtaKnGxyUJbPlhqVOOYb6Ta2sEHfsLC63TuLgQH5YXKSxcZVTjfHGvfySEVNwcHbLjBy0MfiqM7ElZVNwDD3enjteJ5q4YZv0zYE6M3i3F1Y1str9L2Omh/7E7x19IatL9iufwpbW9ttcwYnl06gHT4I1TfD+o9tVtt1SfHFPXbXkf1E6rdqjx86Mgvadbe2WodtN9Tb6uyCu+RPr/ou6vuCEaL0bXoZisfm6+5aDPqmsLtu1yIOR5itmoXs9UuxGyn8q9jHm4kL9yr9Uu3DdN/dFX9B1XjqU80qS7mGuIL6Yb0Ylr1vMssl59lkXV4nkhIL+QSUj+dEJ1nFMKzpEL2N3llR/VTy0blZ5d1dZZg1tU4x7L15As=&a=RZVRjsQgDEPvst/z0SZQ6FlWe/9rzHPrZKVKebIgNozI/P7+ffT9xHl+4ozP+fN5OaY50NOc6Ms80GsNHNs84du8WFM6nKd5w/aKg/XWxTnMZEj3J0vEZb7+M1DbVzyqz83e42VqDPfEP4Z74h/DPZNzla94uD9aZxAPew31tJd4ei9aDJ9LPL0XLYbvkNp5qJ1HPKs/561s4un7ROts4stnRPvPBl+VjXsetRe+Khv3cznPJE/lF1/uj9b5xZf7k7Hz4N9e9O6e9IhdunxrPb7baxZ7l9eItzOgxbbvoueq9fD2naDFds5FtlXr4e2caLHtu7irVevh2/eGFrczkDdu99nysq/4ti9a5xTf7onWmcW3M6B1ZvHtPGidH87DedA6P5xHZeMO6yxwHv4d0foscB7OjNbngvNwZs7XZyF75yRXZZBn9Ve/2quax3vGh/2upeX5ZsuDPmf1gePNIy3DfZgt6TnzsOeMtPQbT+ZMMlOa/d6lpd97Mk86g9izRVmSN/ww/pnei397UdtLnM6P1l5i3vbL9C9fsd9+MlvaV+x3LS093x72G5fW2ciV6Z7UzoBn+j3KJz1PVNMzRLW9qN1f7BkiLT1DHvablZaeG/JJv3HVnF5Pzel7oHZPerx73z8NfX9f",
     imageFile: "blog60.png",
-    tags: ["10x10", "slitherlink", "blog"],
-    variant: "need to write",
+    tags: ["10x10", "slitherlink", "blog", "variant"],
+    variant: "Two perpendicular line segments may intersect each other, but not turn at their intersection or otherwise overlap.",
   },
   {
     title: "Mochikoro",
@@ -459,7 +466,7 @@ export const puzzlesData = [
     pzprxs:
       "p?statuepark/10/10/i20l09500093061940f201090040i2i30i/10/23lg/23lg/14u/14u/32t/32t/32f/32f/22u/22u",
     imageFile: "blog62.png",
-    tags: ["10x10", "statuepark", "blog"],
+    tags: ["10x10", "statuepark", "blog", "favorites"],
   },
   {
     title: "Herugolf",
@@ -468,6 +475,7 @@ export const puzzlesData = [
       "p?herugolf/10/10/femto3o3g281o3o3ndeu5p4i3n4k1hk3mhihmhkhkhhjhlhnhn3l3k4khj3i4khl5",
     imageFile: "blog63.png",
     tags: ["10x10", "herugolf", "blog"],
+    description: "This puzzle, and the one after, were written when Herugolf first premiered in Puzzle Communication Nikoli! I had two immediate ideas that weren't covered by the puzzles in that issue of the magazine. Having seen more of the genre, I would have built this puzzle a lot differently today."
   },
   {
     title: "Herugolf",
@@ -483,6 +491,7 @@ export const puzzlesData = [
     pzprxs: "p?nurikabe/6/6/h4j3z3j3h",
     imageFile: "blogb11.png",
     tags: ["6x6", "nurikabe", "blog"],
+    description: "This is part of a set of nine small Nurikabes, written around New Years' Day!"
   },
   {
     title: "Nurikabe",
@@ -546,8 +555,8 @@ export const puzzlesData = [
     penpa:
       "1VZNb+M2EL37VxAECrQAE0iULNu6bZNNL9u06boIFoIR0DZjE5FFl5KSrILsb9/h0Ikpyj0UBQoUssajp+F8kHwc1X+1wkgWT1gcsfGYRSyGazaLWBaN2YSneEeHa66aUubkSpWl3qlKkx8/b8Ve/sQ+tM1Wm5zcivJBGsYu1aNaS9JsJdkYtSaqajQxcqN0VRN9T7QB+42uRFl+JStdVXLVyDVZybKsz8n8qWdsvdRiB0J1kuzEV1LphtRbSJyIisj1Rp6Ti7J9c0B2bd2QpSx1tSEQVxyc2UCNUJWyMPhU1VqthI1btbulNDaWy+AHfgm/uY1r66tJJZ8b6+q9IAwB2ROx30thwJdLU5eP4M+anBOcm5qsIMelJEY3GEtUa8jnvsSKz9lvV1fsXpS1HBVujieLUUE5ZXjHdPGNrvRuqei3gtpK63YJOF2MXro/8pfuLi8Wr6z786hOj+rn/AXkdf5C05TmBU0prK31yWiaWSD2gGlgMY5DIAmGjMcWyDwAnfrAJARmATCJAqeT0Mck9DHFIT6AmfpAWNwUi/OAWVjLDGvxgTBsHIVx4ygMHEc8RGK08RzHHOcg8ZAEV8e3STC6j6SD6CnW0EPQTw8ZxBpjhr5nt0g+kg1iZYNKs0H0bBA9CzdIPEEEdvY7Mli8eDqYw+nAz2wwq25Ffc+zcNG5W0HPhg/Wi8e4d3wbHkbnPNyjPAn3E09wlDfzPMF8fM9uTf1Rabg6PB1Ed9TtIeFe5Y7N7wicAjGeBV9QXqHkKOdwVLAuQXmJMkI5RvkJbT6ivEV5gTJFmaHNxB42o1GRptg7gov/j8GzOB2zMw4K3PbiEeOJe2VR9zcFHB9Aoi30TmdkH6x2dng+DEo5HPFwgFPoFnd1a+7FStIcmwBDzLWjHlRqvS9V1bdTm0obaHMnXlnQtguaN6btmS+1WVvnR/wJ+lhvsPso6EErZVZlH2qM6j0LY/RTD9mJZtsDlqKBD4h6q/Z9T7Jq+gk0ol++eBBBNPj8eEvndUSfKd6FnefE9sZZ3t2w7hdHuLdWyrobaI6/5t217Y0FBXrgHkfGcVA/HtVbfG+1iwMjI9CvDzqoX0B1s3L3ySG/50U3t72ZdT/jaKvSnX6ERHEYPrtuDoA3Ge5N3a71Q/t2AFjSfsB0D0NO5Jwcc7aqy9lqJ3K2pfzrnP0vkCDh2eLVLUT0jz5N/oOj6flANW1Osg3gE4QD9CSxDrjjVh8f8MgGHFIJ0BNsAjQkFEBDTgE4oBVgf8Ms6zUkl80q5JcNNaCYDeWzrFiMvgM=&a=TZRRjoQwDEPvst98tCSBcpbV3v8aazdOQBrJTxGDndYzv79/Bz8/Ntdh9hzz5wA/h/lIPgd4ih0c4gBfyfheP0++xPie+Sk+wfbyVWyY+8tX8ccLPuZ3ciBnKCe0vchLjJldykxexcizlAf+7UVexdjr0l7kVYwMSxmuG8+sl5f4/mSAZ3tBbWlfaHuBfRRj36V9wT6KA6wMyNIZwD6KPxmgtvJ8fAw8k7tTfWQeqo/Ms/ksfvNsxn0nv3mYpXw3n8U3ODP4eA6feQ6bTXx+vMjqA2ftBXV0q1kd4MzVN3q2F9mLF1i7n19fcIgxc9OZkEOMTnYeeLYX1NW9zbjv5I8v1C/5wr+9oP1+dMzVN6qjW826d85c3aO2F1n3zpmre5t175x1BqjfygD1WxnITzH68KgPN3a/tTv5EbOHlY091G+B2nmgnQEcoxh5qofQqD7Av32hMeUFz5h5PoGuhTpPDXUs0LF6/2Z1gLNAz5JfL2rM3Hez7p2zmJmBWhk2WzHymPIgV8w8h81Gzj9Ofv7+AQ==",
     imageFile: "blog65.png",
-    tags: ["10x10", "fillomino", "blog", "variant"],
-    variant: "to do",
+    tags: ["10x10", "fillomino", "blog", "variant", "favorites"],
+    variant: "The shapes next to the grid must all appear in the solved grid. Shapes can be rotated and reflected.",
   },
   {
     title: "Akari",
@@ -562,6 +571,7 @@ export const puzzlesData = [
     pzprxs: "p?slither/10/10/i2d225d2cg70dhcgdi0di16dh81bi2dicgdh37dg2a823c3dg",
     imageFile: "blog67.png",
     tags: ["10x10", "slitherlink", "blog"],
+    description: "The theme of this puzzle is that the tetrominoes can drift a bit to form a square! It's inspired by a Mellowmelon Nurikabe with a similar theme."
   },
   {
     title: "Yajilin",
@@ -569,13 +579,15 @@ export const puzzlesData = [
     pzprxs: "p?yajilin/b/10/10/43h0.l0.a220.p0.d31d41d11p320.a0.l0.h11",
     imageFile: "blog68.png",
     tags: ["10x10", "yajilin", "blog"],
+    description: "I revisited this idea later in an 11x11 grid, which is one of my favorite Yajilin puzzles I've written."
   },
   {
     title: "Cave",
     date: "2016-02-23",
     pzprxs: "p?cave/10/10/j3l2l8i3j8k3i6h5i3p3i5h4i3k6j3i2l6l4j",
     imageFile: "blog69.png",
-    tags: ["10x10", "cave", "blog"],
+    tags: ["10x10", "cave", "blog", "favorites"],
+    description: "Years later, this is still one of my proudest constructions! It's quite hard, I'm very proud of the core idea."
   },
   {
     title: "Slitherlink",
@@ -625,7 +637,8 @@ export const puzzlesData = [
     penpa:
       "1ZTfa9swEMff/VcIwWADUew4Pxq/dVm7ly7rlo5STCiKoyQmjtTJcps6tH97T2dv/pUN9rDBcHy5fHS6Oyn6Kv2ecS2Y59rPYMDgG56hO8C3dzrE1y2f69gkIiDTTMdbvhDk7RWPdfqOnWVmo3RAbniyFZqx2YYvBUnVTpBIJEkKLjEbbghPEpLawWU5sFJ6R5QURGlIsVYSIp5IpKQUkYEoaI4TLpdEKtLb94gW61hJEqdESBNrAcFFvhMySTKRkohLqQyB5gr+pjfB+eJB6KffVlErkslGcxBgeCyh1p5HBmaYR0UiLGNTbrj9LiYL2MeEGLtMqJzBmlboYvQJ+3xxwVY8SYUTlns5d0Laowxfj85f8tlLSCnz5s4h/xoc8rsgnD+z/FvlnlbuLDiAnQYH6vdpENIRTMQ0jPYReDUwbkUMENQiRqM2wAi/AmNMWgOe61nSrxFv2CGnrbyejzG1Xrw+knrmAWauxwyR/IyBlXu4/lu0F2h7aK9he1juo/2A1kU7QHuJMedob9BO0PbRDjFmZDfYcUK/EELzGfx/DI4ZnCiaquQuzfSKR4IGRmeCIZLZbiE0DfBoFihR6j6JJYTVYLyWCrR2bMhCsVwfi18ovWxlfwThNUBx/zRQFOsoaSKj48ZvrrV6bJAdN5sGWHADd1W6ie+bmeDaaDZgeLNFvuWtartqzc8O3VN8Qx+217dqHQf5Gcs/whGt6ZnlX0Cun4J8atVaKNueQNRDD9zzyr3BcetNSr244E9LH9xbcItdubssyFUQ5teM2jrvcbZ16U49QKM4DX9HareApYS0thnFSJot1Tb7IU8rqbOi3dmRdv2qXesW7VrvSLt2FX+53fH8ufgb3D+6Kv/BtbEvlaZ0JbbaOQJ8RHBAjwqr5B1tAe+oyBbsCgnoES0BbcsJUFdRADuiAvYLXdmsbWnZrtrqsqU6ArOl6hoL584r&a=VY/NjYYwDAV7yZkDiR0bakH03wbfzJ5WQqMH78fiecY8z3H8uGTIlFuWbHnJG04z08z0y9KNKV0L11Kdf9pW2ko309b2SpEMzOA9CAR+cMBWYtjZDG5U8QN2i/kiV+SKgcZojMZojKZ2oS6W7zXe4/n3vB8=",
     imageFile: "blog76.png",
-    tags: ["10x10", "nurikabe", "blog"],
+    tags: ["10x10", "nurikabe", "blog", "variant"],
+    variant: "Every orthogonally connected area of unshaded cells contains exactly two clues, and has an area equal to the sum of the clues."
   },
   {
     title: "Wittgenstein Briquet",
@@ -639,7 +652,8 @@ export const puzzlesData = [
     date: "2016-08-12",
     pzprxs: "p?tapa/10/10/r9k4l9ualv9u9laakbnr",
     imageFile: "blog78.png",
-    tags: ["10x10", "tapa", "blog"],
+    tags: ["10x10", "tapa", "blog", "favorites"],
+    description: "I love the logic on this one! There's a lot you can do with 1111 clues, even though they only have 2 options."
   },
   {
     title: "Nurikabe (Island Line)",
@@ -648,6 +662,7 @@ export const puzzlesData = [
       "1ZRva9swEMbf51MIQWEDURy7SVu/69J2DLrsTzJKMaEojhKL2FInyWnq0H72ns4piZNssBcbDMeX808n3WNbj+3PkhvB2oH/dToM/uHoBh08w7MunsH6GEqXi5j0SyPnfCzIu08252pCbqQS79lF6TJtYnLL87kwjA0yPhHE6kKQVOS5hZS4jDvC85xYPzhZD0y1KYhWgmgDS8y0goonkmqlROqgCiRy4hspTcJlSIyYSa2ItEQoJ42A4nq9Y9LLS2FJypXSjoDEmh+FPZwvFsI8/baLnpJSNcRBgeNSQa8lTx3M8EJTaOMXdZkgCw4XfuJjJtMMxD0YYUGYxVErKxz0ue9wfBRewm+YCQPLcAX3hEKnujS+lxVp6eRC7MqQinBi9COoh7K8LNQx+3J9zaY8t6KVrF/RqJXQkDI823T0Ug1eEkpZe9RaVd/jVXUfJ6NnVv3YpGebdBCvIPbjFY0CGie0CxNxGUa7CE63QORBG/q8kdOuJycb0G6fY80WiUJPOtukszuriyR6I6CojbruMF5jDDEOQTarIoyXGAOMHYw3WHOF8RZjD+MJxi7WnPobb7WSqN73zaPz/zF4/fCmqdX5vS3NlKeCxs6UgiFSZTEWhsa4ZWqUa/2Qg3sbUM6UBlMdGvJQTGaH6sfaTHZWfwSHNUD9uWmgVJo0byJnZOOaG9j3DVJwlzXAmDv4NNlMPjRXAhs2BTjelMjnfKdbsbnn5xZdUjyTCB5v5F10HlcXrPoIW3TLZ6z6Bjb6HFd976LacX4H4u4PIb3apLc47rPe2h0B5P11DukdpPVTub+pydc4qYaM+j4fcLZPaaEXIBSn4XWqizHcSkK3HkY9YsuJnpdvZvSWuqjlDg7IjTZyfVrL9dkBuf4u/rLc89Fz/RqCP/qE/YPPxnLtNG02ZtvaR4APGA7oQWOt+Z63gO+5yDfcNxLQA14CumsnQPuOArhnKmC/8JVfdddaXtWuu3yrPYP5VtseS0atVw==&a=VY5BDoUgDAXvwtqFUlrgLMb7X8M/4+onZoLlvSn33a7zbMePXYZMWXLDa8gpF+y2+iXtdrv9u7UVZsJ5aAidw/zwnGbyO+tPDamhvC23lK3SVtgU6w0erDtQBIZA4I7BzD1JQ7NKjUWkiEx+J5GJbzpDtQgvcovuJrfJ7WzPcf99zws=",
     imageFile: "blog79.png",
     tags: ["10x10", "nurikabe", "blog"],
+    variant: "There can not be four consecutive unshaded cells in a row or column."
   },
   {
     title: "Akari",
@@ -683,7 +698,8 @@ export const puzzlesData = [
     penpa:
       "1ZRbj6s2EMff8yksS5VayTqCEHLhbZue7cvp9rTZarVC0coBJ0ELdmrMXoj2fPadGZICSfahqlqpIkyGH56Ljf8u/6ykVcL38BeGAv7hGnsh3cPpmG7vcN1mLlcRm8snxb7/ak1aJe4HcVW5rbERu5P5o7JCLLYyVaw0hWKJyvMSXOa20oEBjC/TwwsozWSes8RorRIH3FjItTEa6CtbvTIDMbYf5DCbYirdKGbW5G9sln43nDOpU3q2qpCZzvSGVboXuza2YEZDYLdOWx4akp/YPK9UyRKptXFsdez5WMCqnVWl0s18ds0qHDvRVbGChuHppDItAKSkfEpplmkmWemszDZbx/IMmnpS1mUJtoS1Mp3kVYqTyFyp8nV3gv+oDHysrDbafVTok/j1+lqsZV6qQXz49MtBzIdc0O3z5bd68S3mXPjLwb7+PdrXD1G8fBP1H607bd1FtAd7E+154PEo5jMIpDSCBzMEw1FLRlMk/rglYx/JtAUTCuqMmNGI4aQlvjci5HUQ5MTMMIW/UECjemg0OUnuhxQXdAeNQ0ThkcDsfJrjPdlrskOyt7AEog7I/kTWIxuS/UJjPpO9IzsnOyI7pjETXMTBIA4abfav8P/HYCvBruGlyR/Kyq5lonjkbKUEoWZn84i2X4NyY3a4cXsw22hj1cVXCPF0uDB+ZWx6kv0ZZNADzZHYQ0lmk7yPnM16z9Ja89wjhXTbHlhJB8dnuc12/UxwlPQbcLLfonyUJ9WKds5vA/7C6Y4DWN4AFTmL6itR/4wCaDUr6t9Akr9E9Q0qslEv7kDY/1wMwf3cunf0Hr15A30P/JuDD+49uM2qPHxpyNcorm8Fxzo/UjS6vDBP0CiF0XNiihVMJeadxWjelFVqHqvDWB8lddW0u7jQbtC2i27TLnoX2sVZ/MvtzpZvzWfw/tZx+B8cGy8HpRnbiq2zjwBfEBzQi8I68DNtAT9TERY8FxLQC1oCeionQOeKAngmKmAf6AqznkoLuzpVF5Y6ExiW6mosXg7eAQ==&a=VYzBDQQhDAN74c0DEpIctaDtv43Fc6+V0Eh47JzT5hitX05Y4gy4RcMa1gySO4mnuBwuyHb9c5rBhZR1FUNXEuiLSK1So5IoiZIoiUL8Lna0p5/Pe14=",
     imageFile: "blog84.png",
-    tags: ["10x10", "cave", "blog"],
+    tags: ["10x10", "cave", "blog", "variant"],
+    variant: "Clues cannot be shaded, and represent the product of the number of unshaded cells that can be seen in a straight line vertically, including itself, and the number of unshaded cells that can be seen in a straight line horizontally, including itself."
   },
   {
     title: "LITS",
@@ -691,13 +707,14 @@ export const puzzlesData = [
     pzprxs: "p?lits/10/10/k4upsum2c9097hjg08940qkla0vv4ubmjr5g",
     imageFile: "blog85.png",
     tags: ["10x10", "lits", "blog"],
+    description: "I like the half and half theme on this one!"
   },
   {
     title: "Nurikabe",
     date: "2016-10-25",
     pzprxs: "p?nurikabe/10/10/j8p2t8l2p7h2p5l6t6p4j",
     imageFile: "blog86.png",
-    tags: ["10x10", "nurikabe", "blog"],
+    tags: ["10x10", "nurikabe", "blog", "favorites"],
   },
   {
     title: "Fillomino",
@@ -705,7 +722,7 @@ export const puzzlesData = [
     pzprxs:
       "p?fillomino/10/10/g52n46k26i21i23i16g23n21j36n44g68i34i48i24k81n38g",
     imageFile: "blog87.png",
-    tags: ["10x10", "fillomino", "blog"],
+    tags: ["10x10", "fillomino", "blog", "favorites"],
   },
   {
     title: "Slovak Sums",
@@ -730,6 +747,8 @@ export const puzzlesData = [
       "1VbdbuM2E733UxACCvQDiEAUJVnSXZrsFgW2afuti2BhGIFsK7YQWdzqZ7PrIPvsezikalF2L4qiF4Utenx0ODwccWbU/tHnTcGFr79RxPGLT+xHdAVJTJdvP4uyq4qMvS2rSh3KWrHvf2qaYtdXefM/ft13e9Vk7D6vnoqG89vyU7ktWLcv2K4pt6ysO8XALlXdMvXIVAP+TtV5VX1hG1XXxaYrtmxTVFV7xRbPJ/Jz2e3JT5sfClb3h3XRaA9EZYf8C6tVx9o9dsLymhXbXXHFbqp+8MYOfduxdVGpescgIree9apdXtalhuG+rLflJtciJmtcfRfc4vteYXnjUS+FXeuFFvuiBaz6umM57rAW/ipDvOK/3PHHvGqL2dIGcTVbeoHH6RLe6qu3UYd16X1delp326+Be6vZy/H/2cvxIVuuXvnx95OZnMz32QvGu+zFk4GXLb3Yw6PTPrknpQbECQjjKTDXAEQMQEw+ohFAPsYM8jEGyMdoypwYY2C6SuJPATERliSTvSTphJFOlaakNDwBwifKaBnhT3cj/KlY4ZPasR8RniHRGUKCR/qEIMVjTkAcByGOHCHmIY45Z09RhORnPCs882MepIO4e8ehEXR0PtD4lsaAxgVOFj9KGm9p9GmMaHxHnDc03tN4Q2OIIxiIgAcBQoo18MuDEE96sAMElmyUlIETgh9ZOwJnbvnajiwfBelPTpygFGFr2k4wN7W4thNskGxx4qQJl8LY+OXSrku2MHwpxIkThFxKhFfbEnMlAkv23MUjyw8xNxzmAh9s7EtazWSHVttc6xw0x1z6dr9UYu1+Eyq5xhbApeVIH/HEUaQYpi4ukUCEa9tyZAi+0RxI6eISB5jiD/+x9RNj7txytB1bnxHWGjhz8FNrpz70W34CzggPUjNX+jrOQ8yxX6tZisjFhdm7lDpWQ9yA23VlCP4Y14VL4NDFdCTnuhTOZktEQjcu9xP99zB0B9R+r1XVQ9s3j/mm8DLqH5ww05ccqFLqY1XWLq/c1apBv7twS4O603hZ1/QOfa2arXZ+wp/Rm53J5nXBgTZls6lcqGtK53/eNOrZQQ55t3eAdd7h1aLdlx9dT0XduQK63N1+/pRPVsOLySDndeZ99uhaSkRX6raaZsdrfvzRFMShC/Pjb+irP2fHO91Wlx5KJdU7qr4BzDemVWjznu5r68ZWZx/2nbVhfoBpovLwziC/ZsvjQrd1fvyBZmvTO6hPEErT6L95EQAwCoa50/Zb9dQPzUAX8GuSa6dc0CytZmsazdq6oFlv5R9rHr+8TASnq1fzIPy/9Vbzb7SpSd34bFNNNRezDfCFhAN6MbEsbnLLxc/ySC94nkpAL2QT0GlCATrPKYBnaQXsLzJLe50ml1Y1zS+91FmK6aXGWbZczb4B&a=RZTbrcMwDEN3ud/5SCQ/klmKu/8aPYwpFyigA4KmpMDu5/N/6PcXVzsi7uP6O+AOP+Z5RF6LAy6PuJV+//ziFuYHzsVkRFqnRhtmec7F1OjNjL9yxL2bE708cJ9m5m/lgbvnRIvu2egZrfyavzzw8C5oMdyXWWLYQ/8YzqFnTPvpE7P87DK9L3kxPQ95MUqHp3cf6ut8smP6O1B3vvj2vmhxO5Oeuxc1ZnmYufqKb+ej7b7i27ugxfQ3ucmpXuKndOU4kxqPz5Kdp3cnL0/P88jjXtSdQ43H88B5eUe0nUnN099BfK1MaXku/8vc18XXnkH9k/v68iWP/eKwn7x9Vsw9XtzQ144v+55LS99tZaffgvIy7Kcm93jx+GWKfbeVt3OomaXDfiPSdj41/V5e9t2Wlll+nXWOuFtHS78jZaffSPIudo74fSPrD0C//y8=",
     imageFile: "blog90.png",
     tags: ["10x10", "fillomino", "blog", "variant"],
+    variant: "Some cells are large. These count as a single cell.",
+    description: "A practice puzzle from the 2016 WPC! Probably a bit easy for practice, but I think it's useful for starting to think about large cells."
   },
   {
     title: "Tapa",
@@ -743,7 +762,7 @@ export const puzzlesData = [
     date: "2016-11-09",
     pzprxs: "p?mashu/10/10/0300o0000030f200108002000000966000",
     imageFile: "blog92.png",
-    tags: ["10x10", "masyu", "blog"],
+    tags: ["10x10", "masyu", "blog", "favorites"],
   },
   {
     title: "Nurikabe (Sentry)",
@@ -752,6 +771,7 @@ export const puzzlesData = [
       "1VTvb9o8EP7OX2FZqrRJVkVC+dF862i7L33Z3sFUVRGqTDAkIrE72wEa1P7tPV9ShQCbtA+bNIUcl+fOvsf2PTY/cq4F89ru1+0y+Ien1+7i6w96+LarZ5LYVARklOtkxWeCfBgLafXzR3aV21jpgNzzdCU0Y+OYzwUxKhMkEmlqwCU25pbwNCXGBedVYKF0RpQURGmYYqkkZDyTSEkpIgtZwI4TLudEKuJvfaLFMlGSJIZA6UQLSC7nOyfDNBeGRFxKZQmwK/Ezf4jjxVro519WUQuSywY5SLA8kVBryyMLIxzRCMq4SW0syJrDhxu4iZMoBnJPWhggZjBqkgKDzncVzs/8a/hNNqpahnmPGg47helAH5ZqSczX73uXyDpHqw2sAYileSbP2ZfbW7bgqRGtsDqjaSukPmX4enT6WoxfQ0qZN23tim/BrngMwukLK77X7qB2x8EO7CjY0c4FDUI6gIE4DaNd/wDoDxzgtWvE8/oOutxDLjqHSM9zSP8dgXIeFn1Ae4vWRzsBTqzooL1G20bbRXuHOTdo79EO0V6g7WFO362q1Qo7ZVc3n+6/h8HZwjFSo9JHk+sFjwQNrM4FQ0jm2UxoGmA/lFCq1FOaSEjbA5OlVKCbUyEHivnyVP5M6fnB7BsQUQMoL5MGFCU6SpuQ1Unjm2to6gaScRs3gBm3cPGYOHlqzgRKaxKwvEmRr/hBtaxe80uLbim+YQe2t+MkchkUV6z4DC26JyJW/A8a+S8oRk4ipZxcB0L7U+aDe1O79xh33rAEvTb4o8oH9wHcclce70rkaxAWE0ZdnU842rk0U2sgisPwO1LZDJYS0r3NKCMmn6tVXuV6TlJXJd3xCbqdmq5zS7rOO0HXreIP072cvpTH0P6t++kvXBvbSmlK12Lb6yOATwgO0JPCqvAjbQF+pCJX8FhIgJ7QEqCHcgLoWFEAHokKsJ/oys16KC3H6lBdrtSRwFypfY2F09Yb&a=VY5BjoUwDMXuwpoFJUnTngVx/2sw9qy+hKwoec/0eY5xXcf5x1u23HCkLDml+9v8PWTAcA4N8b+xFdrSOe2WyXKeJqd/mWRiAW7J0l7y48STXLUUD9BUKIqDgkmueUYjaHaNoD3QXdQWu0VtE95Ydh3v+fx87wc=",
     imageFile: "blog93.png",
     tags: ["10x10", "nurikabe", "blog", "variant"],
+    variant: "Two regions of the same size can not have cells in the same row or column.",
   },
   {
     title: "Compass",
@@ -767,6 +787,7 @@ export const puzzlesData = [
       "vVRdb+I4FH3nV1h+mpWsKnEIhbz1a+el29mZdqaqIlQZMGARcNd2Cgpqf3vvddIFQ3ZG04dVlMvJ8fX1sbnH9p9SGMn68PQiFrEYnrQb+ZdHA/8ij8+dcoXMyKVeqpUml+pZTSQRC0F+6I2w5FM9IO0f7Kx0c20yci+KhTSMNbluLsnMqAlRK6dJvOHEyJnSK3tCzrWZSGPJsrSOWPkkjHAwYa3JRE2n0siVO05eKzcn67mCzIl2djevyawTcFUrlpJoo6CMcDB0UGNUiPHiZzV2IvaK2BP25YZNRWFlJ28OadjJKafMvzEdvtKxXo4Ufc2pnMykLUfA02FnW33LttVjlg9fWPV9B/s7eJttId74GPv4kG1pEndplnNGx8qMC/l4SxkfMqBToOMjOona6bi1SL89u9+anUaDtuyUt2cnvJXu4nYOisBW//Qb5j7ewXmwKvHx0sfIx9THa59zBUcT9wYsPoUtwCrwCxiUIO6nLO73GtwDfOqxb29Ui5jHjCdJjRPOOOpC3O0yntZzeZJCzjvuAcY6sPi9l3DhY9fHnpd2in9kp5NzWDN4QM//+Q09CR1HrS4ebWmmYixp5ruWeW5VLkfSBFSh9VOhVmGemq20ka1DSGJ/08yZMkgfeZvt82tRFMHk+goKqLobAsoZFXwLY/Q6YJbCzQNiJBxcWHaunsJK4N9QgBPh9uFOO1gNLrZ3OS8duqH+zRM43QTNPMiqM1Z9zgLvs+oruPmvrLpCM+eUwj+B/ZrDIDY/NO2/8N6PI7qoyTgCfNNggA8AA+tUf2d5dYeXCavO/WyEdKmfQaif5r/r6weIvcOoR2w50YuyyY3RdGdebjOlRXOy04yw1oyoRTMq3NN8XRf6Tc37V+aB4MHwpf4jog/fpR+7Zn7p901jNW1a3QZ0i+GAbTVWw9feCvkjH+GCx1YCtsVNwB4aCqhjTwF5ZCvg/sNZWPXQXKjq0F+41JHFcKl9l+XDzhs=&a=TZNRrsMgEAPvkm8+wJAAZ6l6/2vUznp5T4rk0SoZw1b9fL5Fz9XuXdpspV3lag9zdjNz3sGzlrZg1jvJzHxfvIZZ3yYzj4e8HjNnM5k55x+vFazOZb9426lZdimX/eJtp3p2eug+TvLmnV9eBZV3E28606/cdirTSUb1OTXbyXLaT0a1nzO09G9y7FmdqP+4xT5R5Y8uZXa93MKvGWqyzh9dLyO61Hm6xLCfs9PFBOK+cqPZI+7p4ZmPk9zt5AzdHtCZfiYQv5fy+MU99qkZkCyn/UwMe9iDYQ970JPlsZN5nOLhvXXuang/9B2P+Pa3nGEk61t7mMfDxPD+xXc6uf/j564enT/+THq+Pw==",
     imageFile: "blog95.png",
     tags: ["10x10", "dominodivide", "blog"],
+    description: "A practice puzzle from the 2016 WPC!"
   },
   {
     title: "Doppelblock",
@@ -780,7 +801,8 @@ export const puzzlesData = [
     date: "2016-12-04",
     pzprxs: "p?tapa/10/10/ja8w0j2n0zl0naej9w0j",
     imageFile: "blog97.png",
-    tags: ["10x10", "tapa", "blog"],
+    tags: ["10x10", "tapa", "blog", "favorites"],
+    description: "A silly puzzle, themed around 0 clues!"
   },
   {
     title: "Kropki (Outside)",
@@ -789,5 +811,6 @@ export const puzzlesData = [
       "tVVRb9s2EH73ryAIFNgAohBlO7H1lqXNHtal3ZYhCAQjoC3GYi2JHknFsYL0t/d4kufIYl8CFLbOp49n3nfHu6P9rxZGMs79dxKxiIHGJrMIH85jfDzuPzfKFTIhfxi93Sjyy+faWZXJX9lF7XJtEnIrio00jH0pxEoSQaq6XEpDHowuCSdOk2uiKviRYpWTlSwKYjVxuXAtYvSOiCojK13UZQU/lROqskQ+SrPvbYb/MaJaS7JTLieVJkZupXD2XXxJdrk00vuyYCiJ50gKWa3BUD8gtDYqe08ugMBWKGM9rA3EsNaVKIo9EdlXiKBySNIemKhq3bGwrVtBeBIDD6c0gTSSUpiNzA5rS8jChmTavc0TqFauaqce5f9eh052uXKycwI5ruST84kWJAbDPVn27SUIyKE3fxd/gK8nBm+2TWvoFHIB/pdSVpDhUj/CTt0JHLJ4k8s9KWvriNjCERg4YlxdaWOk3eoq89H4XbU5bNqZrCG2CuBMGtwHo0PSVpewLLYWXtzOe8ctlVkV0nb51NaqZYHB21c0cdP37PPVFXsQhZWjdAqlC89ilNKYMnw4XXyjts70pqbfUnhl88Xoufk7eW7uk3Txwpp/j+rsqP6TPIO8RslR3iXPdBLTJOWMtvzuP1HGF4xOz0PomUfjU/Q8Ctme8yAa9Dbz6GDf2TiIToPoWRANRjEPRjGfhWx5FAyOR8HoeBQMj0dBHjz6gct5EOZhJjzMJPYJGcLjsMuxdzlICZ94lwHYuxzC00lw76k/sAAcJhguJh6uJh4uBo7VcGIN5X6FRR+jvIGeYM0Y5QeUEcopyk9o8xHlLcpLlBOUZ2hz7rtqNErxojl+2lvozS/Q6NDM1Ori3tbmAeYrTXAUMMTaYUoTZ+oOKbTeFqrqm6l1pY0MLnlQZuuQ/RKnWW9hB4O+B7SXbg9qs9yDnFG9d2FghvaQUri8ByyFgwva5mrb3wnulz4BJ/oUxUaceCuPMb+M6BPFJx1Desd+UM6T5oI1vye9icqav2BS/pk0d35QphQrCeoA52sM6sejeovrXrtsQR6Bft3poN6B2ivJ5kuSNjeMej+/4b+9Sv2dBJXq/4bvK10uIZSUvkpGu9KN+4MLKMILpHtYCJAeH0l7tSXttQBpH8tPJj1fvLSHEb35rvpJLfzU9Zs2wZYD+NB1fTTYXh0+6DDAB73kHQ7bCdBARwF62lQADfsKwEFrAfaD7vK7njaYZ3XaY97VoM28q9edli5G3wE=&a=RZDbCcUwDEN36bc/Gj+TWUr3X6M3OYYLASHZR4Y8zyv/d42hkpf81CSOuvjREDuaokdLxlYtcp3tF7zdcDboMYVzxbsxd+884D3hvXuj78QkjwWfN1wO9lLpq75TRl4OXwFf2XtFzyz8nHBzwa2b+Rrwa//L/qT3Aw==",
     imageFile: "blog98.png",
     tags: ["10x10", "kropki", "blog", "variant"],
+    description: "A practice puzzle from the 2016 WPC!"
   },
 ];
