@@ -5,31 +5,22 @@ import { getNumberOfPuzzlesByGenre } from "../../lib/puzzles";
 import { Tag } from "../../components/Tag";
 
 export async function getStaticProps() {
-  const puzzlesPerGenre = getNumberOfPuzzlesByGenre();
-  const genres = Object.keys(puzzlesPerGenre);
-  genres.sort(function(a, b) {
-    return puzzlesPerGenre[b] - puzzlesPerGenre[a] || a.localeCompare(b);
-    });
   return {
     props: {
-        genres,
-        puzzlesPerGenre,
     },
   };
 }
 
-export default function Genres({ genres, puzzlesPerGenre }) {
+export default function Sources({ }) {
   return (
     <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>All Genres</h2>
+        <h2 className={utilStyles.headingLg}>All Sources</h2>
         <ul className={utilStyles.list}>
-            {genres.map((genre) => {
-                return <li>{Tag(genre)}{` ${puzzlesPerGenre[genre]}`}</li>;
-            })}
+            <li><p>{Tag("blog")} (2014-2017) My original <a href={"https://wa1729.blogspot.com/"} rel="noopener noreferrer" target="_blank">Blogspot puzzle blog!</a></p></li>
         </ul>
       </section>
     </Layout>
