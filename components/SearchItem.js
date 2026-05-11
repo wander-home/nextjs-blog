@@ -12,7 +12,7 @@ export function SearchItem(postData) {
             <Image
               src={`/images/${postData.imageFile}`}
               fill={true}
-              objectFit={"contain"}
+              sizes={"100px"}
               className={styles.listItemImage}
               alt="Image of puzzle"
             />
