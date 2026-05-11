@@ -4,7 +4,7 @@ import { Tag } from "./Tag";
 import Image from "next/image";
 
 export function SearchItem(postData) {
-    console.log(postData);
+  console.log(postData);
   return (
     <li className={styles.listItem} key={postData.id}>
       <Link href={`/puzzles/${postData.id}`}>

@@ -23,9 +23,15 @@ export default function Home({ mostRecentPuzzle }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Check out my puzzles:</h2>
         <ul className={utilStyles.list}>
-          <li><a href={"/maps/sources"}>All Sources</a></li>
-          <li><a href={"/maps/genres"}>All Genres</a></li>
-          <li><a href={"/tags/favorites"}>My Favorite Puzzles!</a></li>
+          <li>
+            <a href={"/maps/sources"}>All Sources</a>
+          </li>
+          <li>
+            <a href={"/maps/genres"}>All Genres</a>
+          </li>
+          <li>
+            <a href={"/tags/favorites"}>My Favorite Puzzles!</a>
+          </li>
           <li>The Most Recent Puzzle:</li>
         </ul>
         {SearchItem(mostRecentPuzzle)}

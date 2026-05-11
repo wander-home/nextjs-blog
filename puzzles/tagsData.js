@@ -1,4 +1,13 @@
-export const sizes = ["5x5", "6x6", "7x7", "9x9", "10x10", "10x18", "11x11", "12x12"];
+export const sizes = [
+  "5x5",
+  "6x6",
+  "7x7",
+  "9x9",
+  "10x10",
+  "10x18",
+  "11x11",
+  "12x12",
+];
 export const genres = [
   "akari",
   "bosnianroad",

@@ -7,13 +7,13 @@ import { Tag } from "../../components/Tag";
 export async function getStaticProps() {
   const puzzlesPerGenre = getNumberOfPuzzlesByGenre();
   const genres = Object.keys(puzzlesPerGenre);
-  genres.sort(function(a, b) {
+  genres.sort(function (a, b) {
     return puzzlesPerGenre[b] - puzzlesPerGenre[a] || a.localeCompare(b);
-    });
+  });
   return {
     props: {
-        genres,
-        puzzlesPerGenre,
+      genres,
+      puzzlesPerGenre,
     },
   };
 }
@@ -27,9 +27,14 @@ export default function Genres({ genres, puzzlesPerGenre }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>All Genres</h2>
         <ul className={utilStyles.list}>
-            {genres.map((genre) => {
-                return <li>{Tag(genre)}{` ${puzzlesPerGenre[genre]}`}</li>;
-            })}
+          {genres.map((genre) => {
+            return (
+              <li key={genre}>
+                {Tag(genre)}
+                {` ${puzzlesPerGenre[genre]}`}
+              </li>
+            );
+          })}
         </ul>
       </section>
     </Layout>
