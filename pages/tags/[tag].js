@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 
 export default function Tag({ postData }) {
   return (
-    <Layout home>
+    <Layout>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>{`Puzzles with Tag`}</h2>
         <ul className={utilStyles.list}>
