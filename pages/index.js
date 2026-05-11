@@ -14,7 +14,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ mostRecentPuzzle }) {
-  console.log(mostRecentPuzzle);
   return (
     <Layout home>
       <Head>

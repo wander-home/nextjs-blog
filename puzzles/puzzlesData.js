@@ -312,7 +312,7 @@ export const puzzlesData = [
     date: "2014-07-14",
     pzprxs: "p?statuepark/7/7/600i020i600i00000/5/23lg/14u/23n/23f/22u",
     imageFile: "blog42.png",
-    tags: ["10x10", "statuepark", "blog"],
+    tags: ["7x7", "statuepark", "blog"],
   },
   {
     title: "Tapa",
@@ -327,7 +327,7 @@ export const puzzlesData = [
     pzprxs:
       "p?statuepark/12/12/i00n003iqi00000060i00oi000i00010i0i3003000092000//p",
     imageFile: "blog44.png",
-    tags: ["10x10", "statuepark", "blog"],
+    tags: ["12x12", "statuepark", "blog"],
   },
   {
     title: "Tapa-Like Loop",
@@ -745,7 +745,7 @@ export const puzzlesData = [
     penpa:
       "rVXvb9s2EP3uv4IgMGADiMKSZf36lmXNvnRbt2QICsEIGJu2tUhkph9JqyD92/t4ombJ9rCiGASRp8fT3TtS71T/3cpKiQhXOBdz4eEK4jndAAjrr5u8KVTKrgvzJB/YdVvW4qJt9qZK2a0sHlQlxPtCrhXTbXmvqpptK1OyZq9YJfVOsV3+pDQzbVPnG0X4rso3LNeNYbUpFVPlY/OJrVVR1ADgIRum5HrPKvPMpN6wtSnaUmPSjcx13S/22ZjRyPy9Ng2WW93kesfWRavwko33wxt2Qc+Hl6V78zv/kj3vc5tGPVaqVrqpiV3dlsxsyRwqysG/Qsk7o2VRfGJy8xcK1g1r9SiZjWjpUlHYXrBBXQi1zqt1oWj9JOMeNZZSk59N+RV5hlr+KeWN+O3qSmxlUatZ5o5tNcu4zwXdHl995nW7MQ8t/5zhUSSr2Uv3R/rS3aXZ6lV0fx7M+GBepy/cD3i6EHwx76eIpqVHU9iDYUJTvKAp6cEkxIQYv7oYxMYjLn20jAcHwAbMeHwAbExiOgA2bMbDEYAEk1f80CJD/YdrZT0ibgvy0heMHwZKvuA1fdUIMrA6wohYMMWIG2KOMaJ39C4xnGBIfkUUfBpvsM2iW9D4E41zGpc0viOftyDrLQLhBUueIpgXjOwkEf4cmWFjFr4HthaPYuHFYGntOBGeZUf42IZP5HyCUHhLHK21lxHs2OFjGz6B8wkRJ3Zx0C+8eMg7sq1P5HwSHzzxeRDPBWzsPuFj2we33sdD9/GiISY6U+Q7fGzDJ3Q+C+RaulxL4PbUKNcS8XEKg+1ZG5t6S1t7SWNAY0hbHtnvfjbLfOzx6Fr+/0+QJyTIa1Pc1W21hcp5SgLG5wKs1zVPm6p1SGHMY5HrqVu+06ZSZ5csqDa7c/73ptrY4KOFZ7SbCdD/HiZQ38UmUFPlk2dZoWVPkFI2+wlwLxv8Tup9/jiNhC43JdDIKUX5II+ylYeaX2f8I6c7W2B7F7a9JWl3Ibqf+84z9EHR/Y7+9kvafbDtLeMcvlZq1Gt8mG8P5i2tewHMS9eM0EzQ0TK0E6twdJJsrPjufZp1N4LbND/Sy9bkpXkCTwpAz2tT3qOSjOOUt4UDXXt2eWynuCCiw8JA16ZxdC1zR9eaPV1rHbN19Vi2/SHevfsmvqOzO0M6Wb32xzD/yn/L+b/DuE1/W7/8T4F/dMoz1VnxAR70N0XPCs3hJ1oDfqIqm/BUWEDPaAvosbwAnSoM4InIgP2LzmzUY6lZVsdqs6lOBGdTjTWXrWZfAA==&a=RY/bCcUwDEN3ybc/6lccz1K6/xq9lgoXAofoSITc9yP/syxFlyzbEoMSH7TYD07ndHHBhcLFFxZuSZeGQX5hI9yK5qari2BYhmYFmsXB4QuHg5NotsK1w3XA9bj5yPMC",
     imageFile: "blog88.png",
-    tags: ["10x10", "slovaksums", "blog"],
+    tags: ["7x7", "slovaksums", "blog"],
   },
   {
     title: "Slovak Sums",
@@ -753,7 +753,7 @@ export const puzzlesData = [
     penpa:
       "vVXbbttGEH3XVywWKNACi0C82BT55rpxXnpJaxdGQAgBLa0l1iTX5cVOZDjfnjOzS1Ok1NToQ0FwZzicnTlnyZlp/u6yWqsFrtO5misP10k459ufx3yTna6rvC10Ii4L85DdicuubNRZ125NnYjrrLjTtVLvi2ylRdWVN7puxG1tStFutaizaqPFJn/QlTBd2+RrzfZNna9FXrVGNKbUQpf37Wex0kXRwACPrBU6W21FbR5FVq3FyhRdWUFUbZZXjX1pswlTIfP3lWnxuqvavNqIVdFpbKJ4P7wRZ/w8bM7czu/8c/G4zSmNvq91o6u2YXRNVwpzy2rPKAf+GpQ3psqK4rPI1n+BcNWKrtpLRhEJLpPCAQMNeCHUKq9Xheb3Bxm34FhmFftRylfk6bm8UHmjfru4ULdZ0ehZ6j7bcpZKXyq+Pbn8Iptube46+SXFo4qXs6fdH8nT7mOSLp/V7s9BXQzqZfIkg1gmgZJhwOLEt+KUxekJi2jBYhGxiD0W3nzuZAiJYL+6YGnqvfxaPVb8fTKSSxs/BYWJy54DMpODvV7cBgfCZB1GMQYHQttH2HMZHIjHN1MQw286MOfB48Wn98BpeMkT1g/9mcDecH1J5SEAnXbqj218NBM/Po2JHx/AxMac8TH2bUxzYmNmExt/yEMjMRwZQeeCSfm8XuEXUruA1594nfN6wuvP7PMW9L0Ix7MAN0CGhA7urAfQkYX1UHkxuJIen6I7gQ90SOpUTkfX8gCVdA9dzLcxIZUf2DiQ0HE+rJ9AtzEhlR+6mGE06OQT4pw4TjDspZi+xen73pCLMPg4Q8aJOA4bYcaz1Ylv5Hwi9N19vrGND/nC1/fAMXC8AvAK7F5I6C5vADyh4xgCZ6+TD/1LHAfY+r0U03PYIpztwp3tAjjpv2A9gm7PARJcLAYvpungdPKJ+zjA3O+lmBFxwUe+5k99zmvI6yn/AhH1mNks9ZFzdCHO//mMRolmKBtTfGy6+hb9VibcSvFzw2Y7rEzaunOWwpj7Iq/GbvmmMrU++oqMer055n9j6jUF33vxiMY/MthRPTLZeTIytXU+es5qDM+Rpcza7chwk7UY7M02vx9HwrwZA2izMcTsLptkKwfOzzP5SfKN9uCpgAZNnOzO1O5dMppIavc7Js0vye4DDZpUSvhSY+D55EN9O6jX/N4LoZ5bq4dmipGSop1SQ0InTfcb1O59ku6ulKQ0P/JmUmVpHoCTA/DzypQ3YJJKfOXbwhndoHR5qK+dMdD+RQ+X0ji4hNzBJdXCJW2K1vE5hhbN9LVob4p7cwxsvHy2xz9/5XS3Y3l/HP23Lv6vZf7JVZipjxYZzH2dja1HC8rZD2oK9oPqoYSHBQTrkRqCdVpGMB1WEowHxQTbP9QTRZ2WFKGaVhWlOigsSrVfW+ly9hU=&a=RY/dCcQwDIN36bMf4vh/ltL912gjHRwEhNRPyL3vR/7v0mWyL/k0xI7qolcVh+5fnqKf7sbnPXBGyMhYI3SGztADhVhwwbVwIFEoJMPkQhbIbCDFsyrpONu8sbnXA2QYjoEc1ucUzq8+Lw==",
     imageFile: "blog89.png",
-    tags: ["10x10", "slovaksums", "blog"],
+    tags: ["8x8", "slovaksums", "blog"],
   },
   {
     title: "Fillomino (Irregular)",
@@ -795,7 +795,7 @@ export const puzzlesData = [
     date: "2016-11-20",
     pzprxs: "p?compass/8/8/p1111j7...n3...i....l....i43..n4...j105.p",
     imageFile: "blog94.png",
-    tags: ["10x10", "compass", "blog"],
+    tags: ["8x8", "compass", "blog"],
   },
   {
     title: "Domino Divide",
@@ -803,7 +803,7 @@ export const puzzlesData = [
     penpa:
       "vVRdb+I4FH3nV1h+mpWsKnEIhbz1a+el29mZdqaqIlQZMGARcNd2Cgpqf3vvddIFQ3ZG04dVlMvJ8fX1sbnH9p9SGMn68PQiFrEYnrQb+ZdHA/8ij8+dcoXMyKVeqpUml+pZTSQRC0F+6I2w5FM9IO0f7Kx0c20yci+KhTSMNbluLsnMqAlRK6dJvOHEyJnSK3tCzrWZSGPJsrSOWPkkjHAwYa3JRE2n0siVO05eKzcn67mCzIl2djevyawTcFUrlpJoo6CMcDB0UGNUiPHiZzV2IvaK2BP25YZNRWFlJ28OadjJKafMvzEdvtKxXo4Ufc2pnMykLUfA02FnW33LttVjlg9fWPV9B/s7eJttId74GPv4kG1pEndplnNGx8qMC/l4SxkfMqBToOMjOona6bi1SL89u9+anUaDtuyUt2cnvJXu4nYOisBW//Qb5j7ewXmwKvHx0sfIx9THa59zBUcT9wYsPoUtwCrwCxiUIO6nLO73GtwDfOqxb29Ui5jHjCdJjRPOOOpC3O0yntZzeZJCzjvuAcY6sPi9l3DhY9fHnpd2in9kp5NzWDN4QM//+Q09CR1HrS4ebWmmYixp5ruWeW5VLkfSBFSh9VOhVmGemq20ka1DSGJ/08yZMkgfeZvt82tRFMHk+goKqLobAsoZFXwLY/Q6YJbCzQNiJBxcWHaunsJK4N9QgBPh9uFOO1gNLrZ3OS8duqH+zRM43QTNPMiqM1Z9zgLvs+oruPmvrLpCM+eUwj+B/ZrDIDY/NO2/8N6PI7qoyTgCfNNggA8AA+tUf2d5dYeXCavO/WyEdKmfQaif5r/r6weIvcOoR2w50YuyyY3RdGdebjOlRXOy04yw1oyoRTMq3NN8XRf6Tc37V+aB4MHwpf4jog/fpR+7Zn7p901jNW1a3QZ0i+GAbTVWw9feCvkjH+GCx1YCtsVNwB4aCqhjTwF5ZCvg/sNZWPXQXKjq0F+41JHFcKl9l+XDzhs=&a=TZNRrsMgEAPvkm8+wJAAZ6l6/2vUznp5T4rk0SoZw1b9fL5Fz9XuXdpspV3lag9zdjNz3sGzlrZg1jvJzHxfvIZZ3yYzj4e8HjNnM5k55x+vFazOZb9426lZdimX/eJtp3p2eug+TvLmnV9eBZV3E28606/cdirTSUb1OTXbyXLaT0a1nzO09G9y7FmdqP+4xT5R5Y8uZXa93MKvGWqyzh9dLyO61Hm6xLCfs9PFBOK+cqPZI+7p4ZmPk9zt5AzdHtCZfiYQv5fy+MU99qkZkCyn/UwMe9iDYQ970JPlsZN5nOLhvXXuang/9B2P+Pa3nGEk61t7mMfDxPD+xXc6uf/j564enT/+THq+Pw==",
     imageFile: "blog95.png",
-    tags: ["10x10", "dominodivide", "blog"],
+    tags: ["8x8", "dominodivide", "blog"],
     description: "A practice puzzle from the 2016 WPC!",
   },
   {
@@ -811,7 +811,7 @@ export const puzzlesData = [
     date: "2016-12-03",
     pzprxs: "p?doppelblock/7/7/gag5g4b3ef92h",
     imageFile: "blog96.png",
-    tags: ["10x10", "doppelblock", "blog"],
+    tags: ["7x7", "doppelblock", "blog"],
   },
   {
     title: "Tapa",
@@ -827,7 +827,7 @@ export const puzzlesData = [
     penpa:
       "tVVRb9s2EH73ryAIFNgAohBlO7H1lqXNHtal3ZYhCAQjoC3GYi2JHknFsYL0t/d4kufIYl8CFLbOp49n3nfHu6P9rxZGMs79dxKxiIHGJrMIH85jfDzuPzfKFTIhfxi93Sjyy+faWZXJX9lF7XJtEnIrio00jH0pxEoSQaq6XEpDHowuCSdOk2uiKviRYpWTlSwKYjVxuXAtYvSOiCojK13UZQU/lROqskQ+SrPvbYb/MaJaS7JTLieVJkZupXD2XXxJdrk00vuyYCiJ50gKWa3BUD8gtDYqe08ugMBWKGM9rA3EsNaVKIo9EdlXiKBySNIemKhq3bGwrVtBeBIDD6c0gTSSUpiNzA5rS8jChmTavc0TqFauaqce5f9eh052uXKycwI5ruST84kWJAbDPVn27SUIyKE3fxd/gK8nBm+2TWvoFHIB/pdSVpDhUj/CTt0JHLJ4k8s9KWvriNjCERg4YlxdaWOk3eoq89H4XbU5bNqZrCG2CuBMGtwHo0PSVpewLLYWXtzOe8ctlVkV0nb51NaqZYHB21c0cdP37PPVFXsQhZWjdAqlC89ilNKYMnw4XXyjts70pqbfUnhl88Xoufk7eW7uk3Txwpp/j+rsqP6TPIO8RslR3iXPdBLTJOWMtvzuP1HGF4xOz0PomUfjU/Q8Ctme8yAa9Dbz6GDf2TiIToPoWRANRjEPRjGfhWx5FAyOR8HoeBQMj0dBHjz6gct5EOZhJjzMJPYJGcLjsMuxdzlICZ94lwHYuxzC00lw76k/sAAcJhguJh6uJh4uBo7VcGIN5X6FRR+jvIGeYM0Y5QeUEcopyk9o8xHlLcpLlBOUZ2hz7rtqNErxojl+2lvozS/Q6NDM1Ori3tbmAeYrTXAUMMTaYUoTZ+oOKbTeFqrqm6l1pY0MLnlQZuuQ/RKnWW9hB4O+B7SXbg9qs9yDnFG9d2FghvaQUri8ByyFgwva5mrb3wnulz4BJ/oUxUaceCuPMb+M6BPFJx1Desd+UM6T5oI1vye9icqav2BS/pk0d35QphQrCeoA52sM6sejeovrXrtsQR6Bft3poN6B2ivJ5kuSNjeMej+/4b+9Sv2dBJXq/4bvK10uIZSUvkpGu9KN+4MLKMILpHtYCJAeH0l7tSXttQBpH8tPJj1fvLSHEb35rvpJLfzU9Zs2wZYD+NB1fTTYXh0+6DDAB73kHQ7bCdBARwF62lQADfsKwEFrAfaD7vK7njaYZ3XaY97VoM28q9edli5G3wE=&a=RZDbCcUwDEN36bc/Gj+TWUr3X6M3OYYLASHZR4Y8zyv/d42hkpf81CSOuvjREDuaokdLxlYtcp3tF7zdcDboMYVzxbsxd+884D3hvXuj78QkjwWfN1wO9lLpq75TRl4OXwFf2XtFzyz8nHBzwa2b+Rrwa//L/qT3Aw==",
     imageFile: "blog98.png",
-    tags: ["10x10", "kropki", "blog", "variant"],
+    tags: ["6x6", "kropki", "blog", "variant"],
     description: "A practice puzzle from the 2016 WPC!",
   },
   {
