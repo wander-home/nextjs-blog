@@ -1,4 +1,5 @@
 export const sizes = [
+  "4x4",
   "5x5",
   "6x6",
   "7x7",
@@ -22,6 +23,7 @@ export const genres = [
   "heyawake",
   "kropki",
   "lakes",
+  "latinsquare",
   "lits",
   "masyu",
   "mochikoro",
@@ -32,6 +34,7 @@ export const genres = [
   "rightface",
   "rippleeffect",
   "shikaku",
+  "simpleloop",
   "skyscrapers",
   "slalom",
   "slitherlink",
@@ -46,6 +49,6 @@ export const genres = [
   "yajilin",
   "yinyang",
 ];
-export const sources = ["blog"];
+export const sources = ["blog", "book"];
 export const others = ["variant", "favorites"];
 export const tagsData = sizes.concat(genres).concat(sources).concat(others);

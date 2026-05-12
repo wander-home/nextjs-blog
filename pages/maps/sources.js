@@ -30,6 +30,11 @@ export default function Sources() {
               </a>
             </p>
           </li>
+          <li>
+            <p>
+              {Tag("book")} (2017) My puzzle book, A Beginner's Guide to Logic Puzzles!
+            </p>
+          </li>
         </ul>
       </section>
     </Layout>
