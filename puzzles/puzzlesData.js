@@ -1183,7 +1183,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "rVTbbuM2EH33VxAE+sYudGMs6y1NN33ZptsmRbAQjICxaVuILi4lJVsFybfv4S2yYi/QAgvZ1JzD4cwhxZn2n14oyTieecACFuJJosD+zc8/N0VXyoxc9xW5tovO+27XqIzcivJBKsY+l2IliSB1X91LRTaqqUhIuoZckaLGS4rVjqxkWZK2Id1OdJZRzRMR9ZqsmrKvarzqThR1S+SjVP9Ogpk1StRbSZ6Kbkfqhii5l6Jrf4ouyNNOKqlztXCUpC3WkpSy3sKx2Rhqq4r1B3KjJ7ELR66LbdG1UOj0CUSv+hbisMvSuDyKssfq4lHW2k9T/X4v1c+l3HQQrGooNOGgTwf4wP64vGQbUbZylrsDXM5yGlJGI/xDunylbb9uHnr6aujFcvY8/JU9D3dZvnxhw9+jmY7mdfaM8Sp7plFEM7MwNNEYjVNNILgnEuMRjwQ3HoknEChEoCRJNJ2C1ou4WXXmUBpoxC3ikUFzjbD4i9FyacbIjDcQyYbYjL+aMTAjN+Mn4/PRjLdmvLDpWZKc0SwMkM8A7gEHgGYL5izhyG/BGWbmHqQACw8WcAsd4Li/I4gAsNURxB7EAD4ph4LUJ+VQkPrQKfIsvIIUeRY+9AJ53kAKkOIQR/A2g8pKfdI0Yjz0205jALcfsABOAVgApwDsAUB9cn0JRuDywABwO+URQkcuD/wBnAK4ALhtwwDwCiIosAAfKTGf6izL8zhgMe5BHuPwzBtnkOKNM+fBEl94ri/pbJZDjW4j+uH/zUJt4P7Ttinv2l5t0EZoZqqHGc72AJp1qndM2TT7sqinbsW2bpQ8OaVJud6e8r9v1FoHP5h4EmU5IWyXnFCrQq3KKdWpYoKFQmubMJXodhPiXnToqu2u2E8jybqbCujEVKJ4EO+yVeOeX2b0KzX/PMbxxrq3LLLhnA2/2abhmxAb/kRz+T0brnRvyakpdFSqcYpgfhzNWzOvrQvXeQLYV9rWAPYX2PZY7j5Z5nOWD7hROtEvZrk2adU8QqkVovGqqe6xl5wenIadcS3S5dNd59zo9RMnVMejam1a1do6Um03c1r0zY8SvVi+2K8R/K/+bpvzj+qyh2X8VqdfXcE16mTNgfZlN2VP1pfjj0oM/FEx6YTH9QT2REmBfV9VoI4LC+RRbYH7TnnpqO8rTKt6X2Q61VGd6VSHpZYvZ98A&a=RY5BDgUhCEPv4pqFUHD+nMV4/2s4tIufmLwUXg17H/u/EdNy2Ai3aMDQSKvGa/4BkwnOHYImwB6kpJR0DvOhmT+ll4WSUs5CLSWZpV/W/My+61w=",
     imageFile: "book11.png",
-    tags: ["5x5", "latinsquare", "book", "variant"],
+    tags: ["5x5", "latinsquare", "book", "variant", "favorites"],
     variant: "The sum of the numbers in each cage must equal the value given in the upper-left corner of that cage. Numbers can repeat inside a cage."
   },
   {
@@ -1231,7 +1231,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "rVZdb6NGFH33rxgh9W26MsMAhrc0bfqyTbdNqmiFrIjYExsFQzpAsnWU/e175uMSE7tSVa2wx3PODOeeGe5l3P09lFrxGFc653Me4pJi7r72Q9d11dcqZ1fDjl25m86GftvqnN2U9YPSnH+qy5ViJWuG3Z3S7F63OxayvmWXrGrwo8rVlq1UXbOuZf227B2j22dWNmu2auth1+Cn6cuq6Zh6UvqfiZi9R5fNRrHnqt+ypmVaPaqy734Q5+x5q7QysTpMVKyr1orVqtlgYntvqY2u1h/YtRnEKjy5rjZV38Gh91dCfTd0MIdV1nbKU1kPuLt6Uo2ZZ6jh8VHpH2t138OwbuDQysGfEfjAf7+44Pdl3alZ4TdwOSuCMOCBwDcMll+Dbli3D0Pw1dLZcvay/zN/2d/mxfKV7/966y7eulf5C9pL24b5SyDnMsiLIAt4uOSBDBODFh6J+SGSFtHM1M5MHIrdfYSE1Uw9iu2YRQj62Ya+sK2w7TWc8X1k259tO7dtbNuPds4vtr2x7bmzjcyCcDiHFwtiAjHAgkDKZQjfDiQYSQksADICGaYJD0Lkb4gVOIAMDkMCAiAiEAFQ0BAORmCyXpKaBSQgIS1JWkJA0hIkpCVJS6jJUQ3rkeRaYgkjSAFSWqkF4wiWndLi0gWPx8WlGYCPAxbA2wEL4IOC5bH00mABvBpYHsd+R8EC+MWBPQBhArVRwADvDR0AUguNmvcGFoC8xfAWk7cY3mLyFsPbG4B0THEsoDgx4iRkNIZ0QnFiE5QcJHCdkOskBKCgCYIm/vngZgDylsBBQg4S7E5CQRM4GIHANEECFtA9AvcIci1gNCKjAgJiFIBRQUYFlhCR0QiuCbiXLT1gC8YR8yqmrBJIMVOLDiD5aKvAAlAiYd8k7Q5YLjOSxibKjNQyqGWUyhnUMkrYDNk7Ajx6SXngAAVFHkjKA0xB0LEAEYfyACwAxUEeSHr0YAngpSDtqyHJiwIbgGULseQFtiya4zeCuskGdE36pvg1OZDxxIyavMWLqsATiqBvb4x4JJZ4+6TmrTmbGVFzrpkr/m89vKzxQg66tr7tBn2Pcy3I7eucW84dSkHe68Ezdds+1lUznVZtmlark0OGVOvNqfl3rV4b8YOB57KuJ4Q7tifUqtKrekr1uprgUuOsnTC7st9OiLuyxzHfbavHqZJq+qmBvpxaLB/Kd9F2b2t+nQVfAvstImxvZA67LN+f8f2vOFwOTkW+/wOn3W/5/tIcdkVgDyGcInYSni2OkrF7Y8dN79yRIfIBhyP6BqD/GX23LbcfHfMpL/bIPhPoJ3u76Qa79glOnRGDV+3uDmspgoPdcCP+zPbxzIl4Zv3SwAnX0Ztr03WuTe/ItVvMadPX38t0tnx1T2P+P/5wfK9/AIclP9bpF19wrT5Zc6Cp7Kbsyfry/FGJgT8qJhPwuJ7AnigpsO+rCtRxYYE8qi1w/1JeRvV9hRlX74vMhDqqMxPqsNSK5ewb&a=RY5BDkUhCAPv4prFh4JPz2K8/zUM7eInJhPqlHDOtf8b8bMcNsItGmFowKqR5o3NCTLhDCETYA9L4WaYMlM7M1jPT5PM1M6SWc5eTeHT32KhNguzzb75Pg==",
     imageFile: "book17.png",
-    tags: ["5x5", "latinsquare", "book", "variant"],
+    tags: ["5x5", "latinsquare", "book", "variant", "favorites"],
     variant: "The sum of the numbers in each cage must equal the value given in the upper-left corner of that cage. Numbers can repeat inside a cage."
   },
   {
@@ -1395,7 +1395,7 @@ export const puzzlesData = [
     title: "Yajilin",
     date: "2017-07-05",
     tags: ["8x8", "yajilin", "book"],
-    description: "This puzzle was nonunique in the original version of the book. I've made a post for it to preserve the structure."
+    description: "This puzzle was nonunique in the original version of the book. I've made a post for it to preserve the number of puzzles in the book."
   },
   {
     title: "Shikaku",
@@ -1451,7 +1451,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     pzprxs: "p?shikaku/10/10/g4i4i44m4j4o4g4h4g4h4g4m44g4h4g4i4o4k4m44i4g4g4g",
     imageFile: "book48.png",
-    tags: ["10x10", "shikaku", "book"],
+    tags: ["10x10", "shikaku", "book", "favorites"],
   },
   {
     title: "Shikaku (Shape)",
@@ -1506,7 +1506,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "1VTdayM3EH/3XyEEeVPMftg5Z9/SfPTlml57KeFYTJDXii2slVytNkk35P72G40UHNkuFAqFst7R7E/zJXl+0/3ZcytYPmF5xqYZy1gOzyfQpvCWZzN8Pe6fO+mUqMjXNd8KkHLDNz276N3a2Ircc7URlrEvijeCuLUgK/kkNOnQWuoAWblEReqlbLgTS6L7diEsMY/EyVZ0Y3IH28Gp4ZosBLHGoSXXS2LFoxINfJ0Ulwh4G20cMU/CKr6NSUPQbnxSXMHvSj7JZajJipZLLfWKNEKpDupwBsDGcb3qFbegr6TRna/HWDjZymiu1F+kMVpj4uA4Jte8WUdr0vad8xYOYhPxwhsHHkbDCaRtlBiTi/djwj6PKDhvreiEdh1Zm2fScg1psCr4T95vLGbwanRbCGX0qiPOjNmvNzfskatOjOrwF03mo5oWlOGb0/l32ph2Ien3morlSnT9AnA6H70Ov1evw0NVz9/Y8MdOne3Ur9UrzbOSVjOIlE3CWuRxLeIa98vzsE6yuHo7CHILQcoZrbCoHEvy0WA3RYoDmylE2kOmBwh65fkHaJYGghLy6hXkN5Q3KAuUd3BMNpQor1BmKKcoP6PNNcp7lJcoJyjP0OaTv6jRqC5nSJv0Of8fYqd5dsZyOE040Cmsp7hAV0HP0M6oh663j8BwWmHfMcRCcyeQMmarpE7t5EobC+17ZMuDvkNp5WyfmC+MXfrgO/wZGJk4hzGWQIEsCeSsTL65teY5QVru1gmw4A5GXreW2zQSkDYtwPH0+HzD97K1uxO/jegLxbcu4ZpLT8fzarhgw8+hd9/Zy4bfgI+/VMOtp2NNKZtha0LPU1aAer1T73Hfa5cBzDPQb6MO6jdQw608fA7Il6oe7vw4YMNP6O1V2sIoRVrF7zBAAPhwGWGn65dm00fb3HPtAsuNLu81+1Sx5nJXs1dDzV47UrM/yr+u+ePQ2yv4fP4W/ojsH07DMM7+g4nyEqlm7FG2AXyEcIAeJVbEA7dS/IBHPuEhlQA9wiZA9wkF0CGnADygFWB/wywfdZ9cvqp9fvlUBxTzqT6yrJ6PfgA=&a=PZNRCgMhEEPv0m8/1IyunqX0/tdoshOFQh6zMRmFfr+/ot+nP730XUv7FPIgw7zIM5nfUZcZBa2ZJzleRn2uR4q6zbugP8k8h+55U47PipGZmqEN8+A891EGuvOpN0ccuadmQN5FejOpCPuZB7iXCrhLPHoy8zDt4TlM78/veJw/mTntp2J6T/E6HnadHCqmu6hYx897Td9LvI6H95remXp7qXh8L/HyWXZiH2bvci85qv2c3XxqVO/AjKh+w80dTg4V2ztQo+U7KC9q3v3llh7NTqY0evZGVVfmv9yPZ3LuTGZHy17pzRTDZ5kX3b1i2MPZzRRHvpXOxch3kDeGu/g9hrryT6Df7w8=",
     imageFile: "book55.png",
-    tags: ["10x10", "shikaku", "book", "variant"],
+    tags: ["10x10", "shikaku", "book", "variant", "favorites"],
     variant: "Place the given shape in the grid the indicated number of times. The shape can be rotated and reflected, and can not overlap given numbers. Divide the remaining cells following classic Shikaku rules."
   },
   {
@@ -1544,7 +1544,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "1VTfb+M2DH7PXyEIuDctsJ3ffuva673cutuuQ3EwgkKx1USILGWS3HYuen/7UZTbxEkGDBgwYHDE0B9JkZT5yf3ZcCtYmrE0YZOEJSyFZwraBNYom+EKeHhupVciJ183fCdAyi3fNuyi8Rtjc3LH1VZYxr4oXgriN4Ks5aPQxKG31BGyskJF6kqW3IuK6KZeCUvMA/GyFm5IbsEcg0quyUoQazx6cl0RKx6UKOHtQ3aJQPDRxhPzKKziuy5p3NQNP2RX8LuSj7KKNVlRc6mlXpNSKOWgDm8ALD3X60ZxC/paGu1CPcZCZ2ujuVJ/kdJojYlj4JB85OWm8yZ143zw8LA3Ec+89BBhNHQgbanEkFy8tQl23qEQvLPCCe0d2ZgnUnMNabAq+CZvJ9ZlCGoXthLK6LUj3gzZr9fX7IErJwZF/ETZclDQjDJcKV1+p6WpV5J+L6io1sI1K8DpcvDS/p6/tPd5sXxl7R97db5Xv+YvdDGi+Rw2ShbxP5vAP9huwDZOaV7QGYWBCZkYHWcBGO+BSRKAyR6YTo880rhJlhxAE8iBPbwjM3SaHyJQT99njrnefaDGNH8B+Q3lNcoM5S20x9oRyiuUCcoJys/o8xHlHcpLlGOUU/SZhQMaDIrRGOnSf2b/Q+ynBXQyhR9MD8wGdUbdu8Y+AJNpjvPFEItD3IOUMTsldd9PrrWxMKZnTAEMk0hzb5ue+8rYKmy+x5+Aeb3geF31oEiKHuSt7L1za81TD6m53/SAFfdwtbmN3PV3AnL2C/C83z7f8qNs9b7j1wF9priKEZzyKNBukbcXrP0Up/eNpaz9DXj3S97eBNoVlLI5jmIBRqB0mMd39Q7tQbuMYJqAftPpoH4DNZ7K/eeIfMmL9jbQnrU/Y3RQaQ1XZuAMhOF7vCgAODiMaHFNZbZN55sGbl1guV3IW80hVVfzaF9zUGPNQTtTc2jlX9d8eLkdFbxYvsYPkfzDWy/eb//BDfLcUc3Ys2wD+AzhAD1LrA6P3OrjJzwKCU+pBOgZNgF6TCiATjkF4AmtAPsbZoVdj8kVqjrmV0h1QrGQ6pBlxXLwAw==&a=RZRRbsQgFAPv0u98JM9kCWep9v7X6DgYKq3kEQLbRI/9/f0e/v1Ua0d9zuP6OeAOK/zALTzge/J9wp8w++8nzP57hL0/nmh9rvAFV7j+s8w9PqxVjw/59SyfG14+Hzg+3fvTE62enmj19DSPnGWteg/Tf+WiNZYP/Ud8yK8RH/Jr5Cz5NXIW7xrpA+vMHtZq5I7o9kd15V7kbH9YV3qypmt5dnj5uGe+D6xreurk7Dl9rKuDVefsadU5z75c6+zYfayrg1UVH7qo4kOXnWuueLImxad8dva3qmZ/685FVfM7v9zWWe5SuQu6O6Bqy4f+zO5k+rf4kK+Ws2K/0hmV0tN85yxrO9d8x4c1tXwHVC13MTP3k7nX6oPuPqgy/+6lzL97iTe2OW/BXdSzn3z17CdHeV8vM+uT3T93MWf+vbZzzXkLXtsd0J2LKvPvfD35buTrSU8y9SSLHI344628r5fzvrymvC/rv797xudh/8pCdxbaztyRzMZMv0xmW7NNTntne/6B+ff9Aw==",
     imageFile: "book60.png",
-    tags: ["10x10", "shikaku", "book", "variant"],
+    tags: ["10x10", "shikaku", "book", "variant", "favorites"],
     variant: "Place the given shape in the grid the indicated number of times. The shape can be rotated and reflected, and can not overlap given numbers. Divide the remaining cells following classic Shikaku rules."
   },
   {
@@ -1632,7 +1632,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "1VXNbuM2EL77KQgCexMCUT9OrFuaTXrJptvWRboQjICWGUuIJGYpOlkrSNDX6Ov1SXaGpGNRdoECRQ+FLc7o43Dmm5Fm1H3dcCUCFuI/DQOQ8EtBwys6m5oLcfzNK12LjJw/cFWRy9+D840upcrILa8fhAqCzzUvBKmrdak7UrVakk42gojmUW9JIeq6A4DokmsinoTaDnZIBSfqetNULddidUKunZd3DM4JawrK9q8//lQCYhDekWcEQXIQLooQrdkknVYcPQGrVhBgW/Wy1WC5JVIRIKGrAu8+RBeklZrIJZzYFECBLLdwfgkpPRivJ+RD9BH+c1Xxdl0LiAcMmkopqYBDWRUlUeK+FoUmS8Gbjsh7WwsC+XIyC8lKrJUQxBw/IfNSYAodxIWDXzeVEo1oNYGyDbK2CT1XutzFeq9Nw7eG88BacGAhoUAK0wPZdKJ+Et1J8NPVVXDP605Mcvc4F5OcMhrQCC5GF2+0kM2yom855fiAAaWLyUv/S/bS32X54jXof9urZ3v11+yFxinNkoAmUyPSmRHT0Apmhd07jY04O7XizAp7gIXWlIWRk9aYhfYsY4mTNhxjO9x6Y5F1xyLnL7YMWOz8Js5v4vwmzl/i/CXufOrsU+c/df7T3b7z7zJkLkU2df6nzv/U+Z+ifyjVjSuVKTxu0IUtmgdgpXIa7gGsmWdhCuIjWJoRAqQHCIRn2QusX4AEJpzHAdX4nBmSQONoAKQYE06+A6eQswfMxj5YPD7DYmQ1dMtiZO7bjEMzUxEfQRsvVoJ0PJsUHsbABjK9MvlGZp3Dyxr0sVk/mjU0a2rWa2NzadZbs16YNTHr1Nic4us+meSxHZL+L/3/YdD/0N+0k/Vdt1H3MLppZiZEYLB20yyF8qBaykecox5YrVupxNEtBMVqfcx+KdVq5P0Z5rAH2I+TBxWVKmofwsc9vOcwJJ89pOG69IAl1/Ah68rq0fcE09cnoLlP0Q7GDL4QO9f7lF8n9Bs1F7yELIhxds6y/jzof7RtuBu0Qf8zDM9PWX+DszOn0KDmDTRGEaiXe/XW7KN2YUEWgn7j+hrUL6Daotxdmz7oP2d5P8fZHfQ/mNOo0kY+AVHLA+/trAegKyEpB3ablXzYODPTQeeGqbPe0cUojm68p4uqpYvaEbqYxb+mu/80jejOFq/2CYT/8Jtlx/FwKv5HE+ObazKpjvYZwEdaDdCjLeXwg64C/KB/MOBhCwF6pIsAHTcSQIe9BOBBOwH2Nx2FXsdNhazGfYWhbGuNQg3bK19MvgM=&a=VcbBCQAgCEDRXTx70MxqhHYQ91/DQjsEH943c/wCJkLZgGf0zarhGmnlSJXT2a/uAQ==",
     imageFile: "book72.png",
-    tags: ["10x10", "akari", "book", "variant"],
+    tags: ["10x10", "akari", "book", "variant", "favorites"],
     variant: "Triangles are mirrors which reflect beams of light at a 90 degree angle. There is no requirement to illuminate cells with mirrors. Lights may not illuminate each other or themselves."
   },
   {
@@ -1664,7 +1664,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     pzprxs: "p?akari/10/10/hd.o.h5.gchbicncg..1.icncich6.gc.o.hc",
     imageFile: "book76.png",
-    tags: ["10x10", "akari", "book"],
+    tags: ["10x10", "akari", "book", "favorites"],
   },
   {
     title: "Akari (EX)",
@@ -1702,7 +1702,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     pzprxs: "p?tapa/10/10/oa7l5k9j2iagualjaluali7jalkall2o",
     imageFile: "book81.png",
-    tags: ["10x10", "tapa", "book"],
+    tags: ["10x10", "tapa", "book", "favorites"],
   },
   {
     title: "Tapa",
@@ -1723,14 +1723,14 @@ export const puzzlesData = [
     date: "2017-07-05",
     pzprxs: "p?tapa/10/10/k2l8k8g4s5m7l34l6m7s2g8k2l4k",
     imageFile: "book84.png",
-    tags: ["10x10", "tapa", "book"],
+    tags: ["10x10", "tapa", "book", "favorites"],
   },
   {
     title: "Tapa",
     date: "2017-07-05",
     pzprxs: "p?tapa/10/10/ga9ha9ha9zsalhbpja8a9jafhbnzsa9haeha7g",
     imageFile: "book85.png",
-    tags: ["10x10", "tapa", "book"],
+    tags: ["10x10", "tapa", "book", "favorites"],
   },
   {
     title: "Tapa",
@@ -1752,6 +1752,7 @@ export const puzzlesData = [
     pzprxs: "p?tapa/10/10/r6g1i6g3q5g4i3zhaeialgagqa9gabialgalr",
     imageFile: "book88.png",
     tags: ["10x10", "tapa", "book"],
+    description: "This puzzle also appeared on my blog - I must have gotten it mixed up when writing."
   },
   {
     title: "Tapa (Borders)",
@@ -1774,7 +1775,7 @@ export const puzzlesData = [
     date: "2017-07-05",
     penpa: "1VVNb9s4EL37VxAECrQAEejDsmXd0rTZS7f7kSyCQjACWmZsIbLopaQ2VZD+9j4OpVqyvVgsFntY2KJn3oxmhpTec/VnI40Svme/kSfwi08Ey15BPKPL4vZzm9eFStit3Ev2+q02a2WqN+KyqbfaJOxOFo/KCHGzlWvFKr1TLFNFUcFk9VbWTBYFq2xw3QUetNkxXSqmDUpsdImMryzTZamyGlkYTTJZrlmpWfAUMKM2uS5ZXjFV1rlRSHb1LthV0aiKZbIsdc1WaE/4q+CK7jdqb1SFmzCIYoUqN/W2YvqB3FWhs0fy0LlSWVPnn/sC3aB5SZmvmz2r9Rum8s227jfXGKObcp2XG8rJMMgFexW8w/eS7WVuqLLLVXtppN3Z6iuTbKULWHSMbNdUqKjLWqKXPZJBf9qCxZpygF6IX66vxYMsKjVJuye0nKQ84IIuny+/tTffUs6Fv5w8t78nz+19ki5fRPvHwYwP5k3yjPVj8sxDjycpD3Gj4FO+FDyMLDAdAAsL+AcgnlkgQOMe8T2XM0jyI8oaQTPqNSjtz6jZj+6YyafJPtF6TWtA6y0GF21I6ztaPVojWj9QznvsJ5gGIpiGPAlQEgac6cCJ5p0TzUUw9ztnjkj8I7JApC9gHTs2OTPQZNbfM/ORhvFdgQgFcAbOmQ4jKD3vJ1jMRYgTcU6MyKJvap24T4tRIO4LxCi96Esv4qGDLSxi54T+VIRB73ge+nTVyPG6pjDgBL0TIA2PyRWYidC+DM6JhhGU9mkcnPEdnfQVrVNaZ/QE5vbFmkzS0MnK+BP9/zDQC0zilS7uQfsHmSme1KZRgqCy2a2U4QlR0kGF1vsiL5E2APNNqaFd50IWVOvNuXynE6PAF8jlCHBqPoKy3GTFGKpNPvIlBOzLCNnJejsCVrKG8lfbfD+uBEUdD1DL8YjyUR512x32/DLhT5yuNMTxhlalFkl7KdqfrJYcdEy0v0Gmfk7aj1alnKJZfpMCBTDfd6aF7yjBoledRHmwP3YiA/MTTHcs9x8c8muStreC20Zv6W5r8p3+jEmpBPmZ3q2wl5QPTsNFqmatH5teEa1iXbp5b87MGx7mtaYb11rH43Z7+4/HXSxf3HPw/tF/xL9X5b/VjaeOatoc2DZ4kQCfYRzQs8zq8BNyAT+hkW14yiSgZ8gE9JhPgE4pBfCEVcD+gli26jG37FTH9LKtThhmWw1Jli4n3wE=&a=VY5BDoQgEAT/4tmDyMwAbzH+/xtuFadNTEXb7oLnOdp1HeePTYZMWbCZtP0+5IS3/fuWO1mwa+tduu1uw2aYhP7Yuc50lTpzJzrLpNyWzsLQiTupB3mOas3BNLiN2qSnrvhUqaUoF7cYVAaqwY9hxjUmi8liIphIF9lisVisPN7z+XveDw==",
     imageFile: "book91.png",
-    tags: ["10x10", "tapa", "book", "variant"],
+    tags: ["10x10", "tapa", "book", "variant", "favorites"],
     variant: "A pair of cells separated by a bold border must contain one shaded cell and one unshaded cell.",
   },
   {
